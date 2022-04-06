@@ -1,0 +1,187 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>심리학, 미루는 습관을 바꾸다</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Knaus, William J.">William J. Knaus</dc:creator>
+    <dc:description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</dc:description>
+    <dc:publisher>도서출판 갈매나무</dc:publisher>
+    <dc:date>2014-09-19T15:00:00+00:00</dc:date>
+    <dc:identifier id="isbn">9788993635416</dc:identifier>
+    <dc:identifier id="bookid">urn:uuid:0f770525-b4b8-4936-b512-b919ac7ff691</dc:identifier>
+    <dc:contributor opf:role="bkp">calibre (5.25.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:language>ko</dc:language>
+    <dc:identifier opf:scheme="calibre">a3a23694-5034-4a67-972b-e421f646053d</dc:identifier>
+    <dc:identifier opf:scheme="ISBN">9788993635416</dc:identifier>
+    <meta content="BUILDBOOK EPub Generator" name="generator"/>
+    <meta name="cover" content="img001"/>
+    <meta content="0.7.4" name="Sigil version"/>
+    <meta content="1" name="GBSProcVer"/>
+    <meta content="GoogleEbooks" name="GBSEpubSource"/>
+    <meta name="calibre:title_sort" content="심리학, 미루는 습관을 바꾸다"/>
+    <meta name="calibre:author_link_map" content="{&quot;William J. Knaus&quot;: &quot;&quot;}"/>
+  </metadata>
+  <manifest>
+    <item href="Text/page_1.html" id="page-1" media-type="application/xhtml+xml"/>
+    <item href="Text/page_3.html" id="page-3" media-type="application/xhtml+xml"/>
+    <item href="Text/page_4.html" id="page-4" media-type="application/xhtml+xml"/>
+    <item href="Text/page_5.html" id="page-5" media-type="application/xhtml+xml"/>
+    <item href="Text/page_8.html" id="page-8" media-type="application/xhtml+xml"/>
+    <item href="Text/page_9.html" id="page-9" media-type="application/xhtml+xml"/>
+    <item href="Text/page_15.html" id="page-15" media-type="application/xhtml+xml"/>
+    <item href="Text/page_16.html" id="page-16" media-type="application/xhtml+xml"/>
+    <item href="Text/page_17.html" id="page-17" media-type="application/xhtml+xml"/>
+    <item href="Text/page_20.html" id="page-20" media-type="application/xhtml+xml"/>
+    <item href="Text/page_22.html" id="page-22" media-type="application/xhtml+xml"/>
+    <item href="Text/page_26.html" id="page-26" media-type="application/xhtml+xml"/>
+    <item href="Text/page_31.html" id="page-31" media-type="application/xhtml+xml"/>
+    <item href="Text/page_32.html" id="page-32" media-type="application/xhtml+xml"/>
+    <item href="Text/page_33.html" id="page-33" media-type="application/xhtml+xml"/>
+    <item href="Text/page_37.html" id="page-37" media-type="application/xhtml+xml"/>
+    <item href="Text/page_42.html" id="page-42" media-type="application/xhtml+xml"/>
+    <item href="Text/page_48.html" id="page-48" media-type="application/xhtml+xml"/>
+    <item href="Text/page_52.html" id="page-52" media-type="application/xhtml+xml"/>
+    <item href="Text/page_56.html" id="page-56" media-type="application/xhtml+xml"/>
+    <item href="Text/page_60.html" id="page-60" media-type="application/xhtml+xml"/>
+    <item href="Text/page_65.html" id="page-65" media-type="application/xhtml+xml"/>
+    <item href="Text/page_71.html" id="page-71" media-type="application/xhtml+xml"/>
+    <item href="Text/page_74.html" id="page-74" media-type="application/xhtml+xml"/>
+    <item href="Text/page_83.html" id="page-83" media-type="application/xhtml+xml"/>
+    <item href="Text/page_84.html" id="page-84" media-type="application/xhtml+xml"/>
+    <item href="Text/page_85.html" id="page-85" media-type="application/xhtml+xml"/>
+    <item href="Text/page_88.html" id="page-88" media-type="application/xhtml+xml"/>
+    <item href="Text/page_92.html" id="page-92" media-type="application/xhtml+xml"/>
+    <item href="Text/page_97.html" id="page-97" media-type="application/xhtml+xml"/>
+    <item href="Text/page_101.html" id="page-101" media-type="application/xhtml+xml"/>
+    <item href="Text/page_104.html" id="page-104" media-type="application/xhtml+xml"/>
+    <item href="Text/page_109.html" id="page-109" media-type="application/xhtml+xml"/>
+    <item href="Text/page_114.html" id="page-114" media-type="application/xhtml+xml"/>
+    <item href="Text/page_120.html" id="page-120" media-type="application/xhtml+xml"/>
+    <item href="Text/page_124.html" id="page-124" media-type="application/xhtml+xml"/>
+    <item href="Text/page_129.html" id="page-129" media-type="application/xhtml+xml"/>
+    <item href="Text/page_135.html" id="page-135" media-type="application/xhtml+xml"/>
+    <item href="Text/page_139.html" id="page-139" media-type="application/xhtml+xml"/>
+    <item href="Text/page_140.html" id="page-140" media-type="application/xhtml+xml"/>
+    <item href="Text/page_141.html" id="page-141" media-type="application/xhtml+xml"/>
+    <item href="Text/page_147.html" id="page-147" media-type="application/xhtml+xml"/>
+    <item href="Text/page_152.html" id="page-152" media-type="application/xhtml+xml"/>
+    <item href="Text/page_157.html" id="page-157" media-type="application/xhtml+xml"/>
+    <item href="Text/page_162.html" id="page-162" media-type="application/xhtml+xml"/>
+    <item href="Text/page_167.html" id="page-167" media-type="application/xhtml+xml"/>
+    <item href="Text/page_171.html" id="page-171" media-type="application/xhtml+xml"/>
+    <item href="Text/page_175.html" id="page-175" media-type="application/xhtml+xml"/>
+    <item href="Text/page_181.html" id="page-181" media-type="application/xhtml+xml"/>
+    <item href="Text/page_185.html" id="page-185" media-type="application/xhtml+xml"/>
+    <item href="Text/page_189.html" id="page-189" media-type="application/xhtml+xml"/>
+    <item href="Text/page_195.html" id="page-195" media-type="application/xhtml+xml"/>
+    <item href="Text/page_201.html" id="page-201" media-type="application/xhtml+xml"/>
+    <item href="Text/page_204.html" id="page-204" media-type="application/xhtml+xml"/>
+    <item href="Text/page_208.html" id="page-208" media-type="application/xhtml+xml"/>
+    <item href="Text/page_214.html" id="page-214" media-type="application/xhtml+xml"/>
+    <item href="Text/page_219.html" id="page-219" media-type="application/xhtml+xml"/>
+    <item href="Text/page_222.html" id="page-222" media-type="application/xhtml+xml"/>
+    <item href="Text/page_2.html" id="page-2" media-type="application/xhtml+xml"/>
+    <item href="_toc_ncx_.ncx" id="_toc_ncx_" media-type="application/x-dtbncx+xml"/>
+    <item href="Styles/cover_style.css" id="css_cover" media-type="text/css"/>
+    <item href="Styles/style.css" id="css" media-type="text/css"/>
+    <item href="Images/image_1.jpg" id="img001" media-type="image/jpeg"/>
+    <item href="Images/image_10.jpg" id="img008" media-type="image/jpeg"/>
+    <item href="Images/image_11.jpg" id="img009" media-type="image/jpeg"/>
+    <item href="Images/image_12.jpg" id="img010" media-type="image/jpeg"/>
+    <item href="Images/image_13.jpg" id="img011" media-type="image/jpeg"/>
+    <item href="Images/image_14.jpg" id="img012" media-type="image/jpeg"/>
+    <item href="Images/image_15.jpg" id="img013" media-type="image/jpeg"/>
+    <item href="Images/image_16.jpg" id="img014" media-type="image/jpeg"/>
+    <item href="Images/image_17.jpg" id="img015" media-type="image/jpeg"/>
+    <item href="Images/image_18.jpg" id="img016" media-type="image/jpeg"/>
+    <item href="Images/image_19.jpg" id="img018" media-type="image/jpeg"/>
+    <item href="Images/image_2.jpg" id="img002" media-type="image/jpeg"/>
+    <item href="Images/image_20.jpg" id="img019" media-type="image/jpeg"/>
+    <item href="Images/image_21.jpg" id="img020" media-type="image/jpeg"/>
+    <item href="Images/image_22.jpg" id="img021" media-type="image/jpeg"/>
+    <item href="Images/image_23.jpg" id="img023" media-type="image/jpeg"/>
+    <item href="Images/image_24.jpg" id="img024" media-type="image/jpeg"/>
+    <item href="Images/image_25.jpg" id="img025" media-type="image/jpeg"/>
+    <item href="Images/image_26.jpg" id="img026" media-type="image/jpeg"/>
+    <item href="Images/image_27.jpg" id="img027" media-type="image/jpeg"/>
+    <item href="Images/image_28.jpg" id="img028" media-type="image/jpeg"/>
+    <item href="Images/image_29.jpg" id="img029" media-type="image/jpeg"/>
+    <item href="Images/image_3.jpg" id="img004" media-type="image/jpeg"/>
+    <item href="Images/image_30.jpg" id="img030" media-type="image/jpeg"/>
+    <item href="Images/image_31.jpg" id="img031" media-type="image/jpeg"/>
+    <item href="Images/image_4.jpg" id="img005" media-type="image/jpeg"/>
+    <item href="Images/image_5.jpg" id="img017" media-type="image/jpeg"/>
+    <item href="Images/image_6.jpg" id="img022" media-type="image/jpeg"/>
+    <item href="Images/image_7.jpg" id="img003" media-type="image/jpeg"/>
+    <item href="Images/image_8.jpg" id="img006" media-type="image/jpeg"/>
+    <item href="Images/image_9.jpg" id="img007" media-type="image/jpeg"/>
+    <item href="Fonts/KOPUSGoB.ttf" id="fnt001" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSGoL.ttf" id="fnt002" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSMjB.ttf" id="fnt003" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSMjL.ttf" id="fnt004" media-type="application/vnd.ms-opentype"/>
+    <item href="_page_map_.xml" id="_page_map_" media-type="application/oebps-page-map+xml"/>
+  </manifest>
+  <spine page-map="_page_map_" toc="_toc_ncx_">
+    <itemref idref="page-1"/>
+    <itemref idref="page-3"/>
+    <itemref idref="page-4"/>
+    <itemref idref="page-5"/>
+    <itemref idref="page-8"/>
+    <itemref idref="page-9"/>
+    <itemref idref="page-15"/>
+    <itemref idref="page-16"/>
+    <itemref idref="page-17"/>
+    <itemref idref="page-20"/>
+    <itemref idref="page-22"/>
+    <itemref idref="page-26"/>
+    <itemref idref="page-31"/>
+    <itemref idref="page-32"/>
+    <itemref idref="page-33"/>
+    <itemref idref="page-37"/>
+    <itemref idref="page-42"/>
+    <itemref idref="page-48"/>
+    <itemref idref="page-52"/>
+    <itemref idref="page-56"/>
+    <itemref idref="page-60"/>
+    <itemref idref="page-65"/>
+    <itemref idref="page-71"/>
+    <itemref idref="page-74"/>
+    <itemref idref="page-83"/>
+    <itemref idref="page-84"/>
+    <itemref idref="page-85"/>
+    <itemref idref="page-88"/>
+    <itemref idref="page-92"/>
+    <itemref idref="page-97"/>
+    <itemref idref="page-101"/>
+    <itemref idref="page-104"/>
+    <itemref idref="page-109"/>
+    <itemref idref="page-114"/>
+    <itemref idref="page-120"/>
+    <itemref idref="page-124"/>
+    <itemref idref="page-129"/>
+    <itemref idref="page-135"/>
+    <itemref idref="page-139"/>
+    <itemref idref="page-140"/>
+    <itemref idref="page-141"/>
+    <itemref idref="page-147"/>
+    <itemref idref="page-152"/>
+    <itemref idref="page-157"/>
+    <itemref idref="page-162"/>
+    <itemref idref="page-167"/>
+    <itemref idref="page-171"/>
+    <itemref idref="page-175"/>
+    <itemref idref="page-181"/>
+    <itemref idref="page-185"/>
+    <itemref idref="page-189"/>
+    <itemref idref="page-195"/>
+    <itemref idref="page-201"/>
+    <itemref idref="page-204"/>
+    <itemref idref="page-208"/>
+    <itemref idref="page-214"/>
+    <itemref idref="page-219"/>
+    <itemref idref="page-222"/>
+    <itemref idref="page-2"/>
+  </spine>
+  <guide>
+    <reference href="Text/page_1.html" title="표지" type="cover"/>
+  </guide>
+</package>

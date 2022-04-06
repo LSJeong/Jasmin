@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>고양이 손님</dc:title>
+    <dc:creator>지은이 히라이데 다카시, 옮긴이 양윤옥</dc:creator>
+    <dc:date>2019-02-11</dc:date>
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:b0dee436-f5af-4eec-b660-0480bda60838</dc:identifier>
+    <dc:language>ko</dc:language>
+    <meta content="0.7.4" name="Sigil version"/>
+    <meta content="cover.jpg" name="cover"/>
+    <meta content="1" name="GBSProcVer"/>
+    <meta content="GoogleEbooks" name="GBSEpubSource"/>
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Images/c1.jpg" id="c1.jpg" media-type="image/jpeg"/>
+    <item href="Images/c2.jpg" id="c2.jpg" media-type="image/jpeg"/>
+    <item href="Images/c3.jpg" id="c3.jpg" media-type="image/jpeg"/>
+    <item href="Images/c4.jpg" id="c4.jpg" media-type="image/jpeg"/>
+    <item href="Images/c5.jpg" id="c5.jpg" media-type="image/jpeg"/>
+    <item href="Images/c6.jpg" id="c6.jpg" media-type="image/jpeg"/>
+    <item href="Images/c7.jpg" id="c7.jpg" media-type="image/jpeg"/>
+    <item href="Images/c8.jpg" id="c8.jpg" media-type="image/jpeg"/>
+    <item href="Images/c9.jpg" id="c9.jpg" media-type="image/jpeg"/>
+    <item href="Images/c10.jpg" id="c10.jpg" media-type="image/jpeg"/>
+    <item href="Images/c11.jpg" id="c11.jpg" media-type="image/jpeg"/>
+    <item href="Images/c12.jpg" id="c12.jpg" media-type="image/jpeg"/>
+    <item href="Images/c13.jpg" id="c13.jpg" media-type="image/jpeg"/>
+    <item href="Images/c14.jpg" id="c14.jpg" media-type="image/jpeg"/>
+    <item href="Images/c15.jpg" id="c15.jpg" media-type="image/jpeg"/>
+    <item href="Images/c16.jpg" id="c16.jpg" media-type="image/jpeg"/>
+    <item href="Images/c17.jpg" id="c17.jpg" media-type="image/jpeg"/>
+    <item href="Images/c18.jpg" id="c18.jpg" media-type="image/jpeg"/>
+    <item href="Images/c19.jpg" id="c19.jpg" media-type="image/jpeg"/>
+    <item href="Images/c20.jpg" id="c20.jpg" media-type="image/jpeg"/>
+    <item href="Images/c21.jpg" id="c21.jpg" media-type="image/jpeg"/>
+    <item href="Images/c22.jpg" id="c22.jpg" media-type="image/jpeg"/>
+    <item href="Images/c23.jpg" id="c23.jpg" media-type="image/jpeg"/>
+    <item href="Images/c24.jpg" id="c24.jpg" media-type="image/jpeg"/>
+    <item href="Images/c25.jpg" id="c25.jpg" media-type="image/jpeg"/>
+    <item href="Images/c26.jpg" id="c26.jpg" media-type="image/jpeg"/>
+    <item href="Images/c27.jpg" id="c27.jpg" media-type="image/jpeg"/>
+    <item href="Images/c28.jpg" id="c28.jpg" media-type="image/jpeg"/>
+    <item href="Images/c29.jpg" id="c29.jpg" media-type="image/jpeg"/>
+    <item href="Images/c30.jpg" id="c30.jpg" media-type="image/jpeg"/>
+    <item href="Images/c31.jpg" id="c31.jpg" media-type="image/jpeg"/>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+    <item href="Images/incover.jpg" id="incover.jpg" media-type="image/jpeg"/>
+    <item href="Images/line.jpg" id="line.jpg" media-type="image/jpeg"/>
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p2.xhtml" id="p2.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/incover.xhtml" id="incover.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c1.xhtml" id="c1.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c2.xhtml" id="c2.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0002.xhtml" id="Section0002.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c3.xhtml" id="c3.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0003.xhtml" id="Section0003.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c4.xhtml" id="c4.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0004.xhtml" id="Section0004.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c5.xhtml" id="c5.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0005.xhtml" id="Section0005.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c6.xhtml" id="c6.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0006.xhtml" id="Section0006.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c7.xhtml" id="c7.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0007.xhtml" id="Section0007.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c8.xhtml" id="c8.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0008.xhtml" id="Section0008.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c9.xhtml" id="c9.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0009.xhtml" id="Section0009.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c10.xhtml" id="c10.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0010.xhtml" id="Section0010.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c11.xhtml" id="c11.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0011.xhtml" id="Section0011.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c12.xhtml" id="c12.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0012.xhtml" id="Section0012.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c13.xhtml" id="c13.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0013.xhtml" id="Section0013.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c14.xhtml" id="c14.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0014.xhtml" id="Section0014.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c15.xhtml" id="c15.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0015.xhtml" id="Section0015.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c16.xhtml" id="c16.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0016.xhtml" id="Section0016.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c17.xhtml" id="c17.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0017.xhtml" id="Section0017.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c18.xhtml" id="c18.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0018.xhtml" id="Section0018.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c19.xhtml" id="c19.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0019.xhtml" id="Section0019.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c20.xhtml" id="c20.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0020.xhtml" id="Section0020.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c21.xhtml" id="c21.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0021.xhtml" id="Section0021.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c22.xhtml" id="c22.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0022.xhtml" id="Section0022.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c23.xhtml" id="c23.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0023.xhtml" id="Section0023.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c24.xhtml" id="c24.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0024.xhtml" id="Section0024.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c25.xhtml" id="c25.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0025.xhtml" id="Section0025.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c26.xhtml" id="c26.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0026.xhtml" id="Section0026.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c27.xhtml" id="c27.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0027.xhtml" id="Section0027.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c28.xhtml" id="c28.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0028.xhtml" id="Section0028.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c29.xhtml" id="c29.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0029.xhtml" id="Section0029.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c30.xhtml" id="c30.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0030.xhtml" id="Section0030.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/c31.xhtml" id="c31.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/Section0031.xhtml" id="Section0031.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/author.xhtml" id="author.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/rights.xhtml" id="rights.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Styles/style.css" id="style.css" media-type="text/css"/>
+    <item href="Fonts/KOPUSGoB.ttf" id="KOPUSGoB.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSGoL.ttf" id="KOPUSGoL.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSGoM.ttf" id="KOPUSGoM.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSMjB.ttf" id="KOPUSMjB.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSMjL.ttf" id="KOPUSMjL.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KOPUSMjM.ttf" id="KOPUSMjM.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="_page_map_.xml" id="_page_map_" media-type="application/oebps-page-map+xml"/>
+  </manifest>
+  <spine page-map="_page_map_" toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="p2.xhtml"/>
+    <itemref idref="incover.xhtml"/>
+    <itemref idref="c1.xhtml"/>
+    <itemref idref="Section0001.xhtml"/>
+    <itemref idref="c2.xhtml"/>
+    <itemref idref="Section0002.xhtml"/>
+    <itemref idref="c3.xhtml"/>
+    <itemref idref="Section0003.xhtml"/>
+    <itemref idref="c4.xhtml"/>
+    <itemref idref="Section0004.xhtml"/>
+    <itemref idref="c5.xhtml"/>
+    <itemref idref="Section0005.xhtml"/>
+    <itemref idref="c6.xhtml"/>
+    <itemref idref="Section0006.xhtml"/>
+    <itemref idref="c7.xhtml"/>
+    <itemref idref="Section0007.xhtml"/>
+    <itemref idref="c8.xhtml"/>
+    <itemref idref="Section0008.xhtml"/>
+    <itemref idref="c9.xhtml"/>
+    <itemref idref="Section0009.xhtml"/>
+    <itemref idref="c10.xhtml"/>
+    <itemref idref="Section0010.xhtml"/>
+    <itemref idref="c11.xhtml"/>
+    <itemref idref="Section0011.xhtml"/>
+    <itemref idref="c12.xhtml"/>
+    <itemref idref="Section0012.xhtml"/>
+    <itemref idref="c13.xhtml"/>
+    <itemref idref="Section0013.xhtml"/>
+    <itemref idref="c14.xhtml"/>
+    <itemref idref="Section0014.xhtml"/>
+    <itemref idref="c15.xhtml"/>
+    <itemref idref="Section0015.xhtml"/>
+    <itemref idref="c16.xhtml"/>
+    <itemref idref="Section0016.xhtml"/>
+    <itemref idref="c17.xhtml"/>
+    <itemref idref="Section0017.xhtml"/>
+    <itemref idref="c18.xhtml"/>
+    <itemref idref="Section0018.xhtml"/>
+    <itemref idref="c19.xhtml"/>
+    <itemref idref="Section0019.xhtml"/>
+    <itemref idref="c20.xhtml"/>
+    <itemref idref="Section0020.xhtml"/>
+    <itemref idref="c21.xhtml"/>
+    <itemref idref="Section0021.xhtml"/>
+    <itemref idref="c22.xhtml"/>
+    <itemref idref="Section0022.xhtml"/>
+    <itemref idref="c23.xhtml"/>
+    <itemref idref="Section0023.xhtml"/>
+    <itemref idref="c24.xhtml"/>
+    <itemref idref="Section0024.xhtml"/>
+    <itemref idref="c25.xhtml"/>
+    <itemref idref="Section0025.xhtml"/>
+    <itemref idref="c26.xhtml"/>
+    <itemref idref="Section0026.xhtml"/>
+    <itemref idref="c27.xhtml"/>
+    <itemref idref="Section0027.xhtml"/>
+    <itemref idref="c28.xhtml"/>
+    <itemref idref="Section0028.xhtml"/>
+    <itemref idref="c29.xhtml"/>
+    <itemref idref="Section0029.xhtml"/>
+    <itemref idref="c30.xhtml"/>
+    <itemref idref="Section0030.xhtml"/>
+    <itemref idref="c31.xhtml"/>
+    <itemref idref="Section0031.xhtml"/>
+    <itemref idref="author.xhtml"/>
+    <itemref idref="rights.xhtml"/>
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="표지" type="cover"/>
+  </guide>
+</package>

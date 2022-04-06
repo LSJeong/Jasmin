@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  height: 99%;
+}
+#cover_container {
+  display: table;
+  height: 99%;
+  width: 99%;
+}
+#cover_sub_container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#cover_image {
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.book.service.BookMapper">
+	<select id="bookList" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT * FROM BOOK
+	</select>
+
+	<select id="bookIsbnCheck" resultType="boolean">
+		SELECT CASE
+		WHEN(COUNT(*)=1) THEN 'TRUE' ELSE 'FALSE' END
+		FROM BOOK
+		WHERE ISBN = #{isbn}
+	</select>
+
+	<insert id="bookInsert" parameterType="co.jasmin.prj.book.service.BookVO">
+		INSERT INTO BOOK(ISBN, TITLE, SUBJECT, WRITER, BCLASS,
+		PYEAR, PUBLISHER, WSUBJECT, CHAPTER, TOTAL, BPICTURE, PPICTURE)
+		VALUES(#{isbn}, #{title}, #{subject}, #{writer}, #{bclass}, #{pyear}, #{publisher},
+		#{wsubject}, #{chapter}, #{total}, #{bpicture}, #{ppicture})
+	</insert>
+
+	<select id="bookASearch" parameterType="String" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT * FROM BOOK
+		WHERE
+		<choose>
+			<when test="searchType.equals('isbn')">
+			ISBN LIKE '%'|| #{searchinput} ||'%'
+			</when>
+			<when test="searchType.equals('title')">
+			TITLE LIKE '%'|| #{searchinput} ||'%'
+			</when>
+			<when test="searchType.equals('writer')">
+			WRITER LIKE '%'|| #{searchinput} ||'%'
+			</when>
+			<when test="searchType.equals('publisher')">
+			PUBLISHER LIKE '%'|| #{searchinput} ||'%'
+			</when>		
+		</choose>		
+	</select>
+
+	<select id="bookSelect" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT * FROM BOOK WHERE ISBN = #{isbn}
+	</select>
+
+	<update id="bookUpdate" parameterType="co.jasmin.prj.book.service.BookVO">
+		UPDATE BOOK SET TITLE = #{title}, SUBJECT = #{subject},
+		WRITER = #{writer}, BCLASS = #{bclass}, PYEAR = #{pyear}, status = #{status},
+		PUBLISHER = #{publisher}, WSUBJECT = #{wsubject}, CHAPTER = #{chapter},
+		TOTAL = #{total}, BPICTURE = #{bpicture}, PPICTURE = #{ppicture} WHERE ISBN = #{isbn}
+	</update>
+	
+	<update id="bookDelete" parameterType="co.jasmin.prj.book.service.BookVO">
+		UPDATE BOOK SET status = #{status} WHERE ISBN = #{isbn}
+	</update>
+	
+	<update id="bookbrowUpdate">
+		UPDATE BOOK SET BROW = BROW + 1 WHERE ISBN = #{isbn}
+	</update>
+	
+	<update id="bookrebrowUpdate">
+		UPDATE BOOK SET BROW = BROW - 1 WHERE ISBN = #{isbn}
+	</update>
+	
+	<select id="bestBookList" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT A.* FROM BOOK A, (SELECT BISBN FROM RENT GROUP BY BISBN, TO_CHAR(BSTART, 'YYYY') 
+		HAVING TO_CHAR(BSTART,'YYYY') = #{bstart} 
+		ORDER BY COUNT(*) DESC) B WHERE A.ISBN = B.BISBN AND <![CDATA[A.STATUS <> 'D']]>
+	</select>
+	
+	<select id="chapterList" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT A.*, B.* FROM BOOK A, 
+		(SELECT BISBN FROM RENT GROUP BY BISBN	ORDER BY COUNT(*) DESC) B 
+		WHERE A.ISBN = B.BISBN(+) AND BCLASS= #{bclass} AND <![CDATA[A.STATUS <> 'D']]>
+	</select>
+	
+	<select id="chapterBestList" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT A.*, B.* FROM BOOK A, 
+		(SELECT BISBN,count(*) as cnt FROM RENT GROUP BY BISBN	ORDER BY COUNT(*) DESC) B 
+		WHERE A.ISBN = B.BISBN(+) and BCLASS= #{bclass} AND B.CNT IS NOT NULL AND <![CDATA[A.STATUS <> 'D']]>
+	</select>
+	
+	<select id="newBookList" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT * FROM BOOK WHERE PYEAR = #{pyear} AND <![CDATA[STATUS <> 'D']]> ORDER BY ISBN 
+	</select>
+	
+	
+	<select id="allSearchBook" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT * FROM BOOK WHERE <![CDATA[STATUS <> 'D']]>
+		
+			<if test="title != '' and title != null"> 
+				AND TITLE LIKE '%'|| #{title} ||'%'
+			</if>
+			<if test="writer != '' and writer != null">
+				AND WRITER LIKE '%'|| #{writer} ||'%'
+			</if>
+			<if test="isbn != '' and isbn != null">
+				AND ISBN LIKE '%'|| #{isbn} ||'%'
+			</if>
+			<if test="publisher != '' and publisher != null">
+				AND PUBLISHER LIKE '%'|| #{publisher} ||'%'
+			</if>
+			<if test="bclass != 0">
+				AND BCLASS = #{bclass} 
+			</if>
+			
+			<if test="pyear != '' and pyear != null and eyear != '' and eyear != null">
+				AND PYEAR BETWEEN #{pyear} and #{eyear}
+			</if>
+			
+		ORDER BY ISBN
+	</select>
+	
+	<select id="mainBestBook" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT A.* FROM BOOK A, (SELECT BISBN, COUNT(*) AS CNT FROM RENT GROUP BY BISBN ORDER BY CNT DESC, BISBN) B 
+		WHERE A.ISBN = B.BISBN AND <![CDATA[ROWNUM < 7]]> AND <![CDATA[A.STATUS <> 'D']]> ORDER BY CNT DESC, ISBN
+	</select>
+	
+	<select id="mainLikeBook" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT A.* FROM BOOK A, (SELECT ISBN, COUNT(*) AS CNT FROM LIKEBOOK GROUP BY ISBN ORDER BY CNT DESC, ISBN) B 
+		WHERE A.ISBN = B.ISBN AND <![CDATA[ROWNUM < 7]]> AND <![CDATA[A.STATUS <> 'D']]> ORDER BY CNT DESC, A.ISBN
+	</select>
+	
+	<select id="mainReviewBook" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT A.* FROM BOOK A, (SELECT ISBN, COUNT(*) AS CNT FROM BREVIEW GROUP BY ISBN ORDER BY CNT DESC, ISBN) B 
+		WHERE A.ISBN = B.ISBN AND <![CDATA[ROWNUM < 7]]> AND <![CDATA[A.STATUS <> 'D']]> ORDER BY CNT DESC, A.ISBN
+	</select>
+	
+	<update id="bookrecommUpdate" parameterType="co.jasmin.prj.book.service.BookVO">
+		UPDATE BOOK SET RECOMMYN = #{recommyn} WHERE ISBN = #{isbn}
+	</update>
+	
+	<select id="mainRecommBook" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT * FROM BOOK WHERE RECOMMYN = 'Y' AND <![CDATA[STATUS <> 'D']]> ORDER BY DBMS_RANDOM.RANDOM
+	</select>
+	
+	<select id="mainBookList" resultType="co.jasmin.prj.book.service.BookVO">
+		SELECT * FROM (SELECT * FROM BOOK WHERE <![CDATA[STATUS <> 'D']]>
+		<if test="bclass !='' and bclass != null">
+			AND BCLASS = #{bclass} 		
+		</if>
+		ORDER BY DBMS_RANDOM.RANDOM) WHERE <![CDATA[ROWNUM < 9]]>
+	</select>
+	
+	<select id="bookTotal" resultType="int">
+		SELECT COUNT(*) FROM BOOK WHERE <![CDATA[STATUS <> 'D']]>
+	</select>
+</mapper>

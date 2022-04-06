@@ -1,0 +1,406 @@
+@font-face {
+  font-family: "KOPUSGoB";
+  src: url('../Fonts/KOPUSGoB.ttf');
+}
+@font-face {
+  font-family: "KOPUSGoL";
+  src: url('../Fonts/KOPUSGoL.ttf');
+}
+@font-face {
+  font-family: "KOPUSMjB";
+  src: url('../Fonts/KOPUSMjB.ttf');
+}
+@font-face {
+  font-family: "KOPUSMjL";
+  src: url('../Fonts/KOPUSMjL.ttf');
+}
+body {
+  font-family: "KOPUSMjL" , "KOPUSGoL";
+}
+p {
+  text-indent: 1em;
+  display: block;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 1.7em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+img {
+  vertical-align: middle;
+  max-width: 95%;
+  max-height: 95%;
+}
+sup {
+  line-height: 1em;
+  font-size: 0.7em;
+  vertical-align: text-top;
+}
+sub {
+  line-height: 1em;
+  font-size: 0.7em;
+  vertical-align: text-bottom;
+}
+table {
+  text-align: center;
+  width: 95%;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+th {
+  border-width: 1px;
+  padding: 1px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #dddddd;
+}
+td {
+  border-width: 1px;
+  padding: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+.center {
+  display: block;
+  text-align: center;
+  text-indent: 0em;
+}
+.right {
+  display: block;
+  text-align: right;
+  text-indent: 0em;
+}
+.p2 {
+  text-indent: 0em;
+  display: block;
+  font-size: 0.9em;
+  text-align: justify;
+  line-height: 2em;
+  margin-left: 3em;
+  margin-right: 1.1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+h1.chaptitle1 {
+  display: block;
+  margin-left: 10px !important;
+  margin-right: 10px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: left;
+  font-size: 1.6em;
+  color: #0096cd;
+  line-height: 1.7em;
+  font-family: "KOPUSGoB";
+  text-indent: 0em;
+}
+h2.chaptitle2 {
+  display: block;
+  margin-left: 10px !important;
+  margin-right: 10px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+  font-size: 1.4em;
+  color: #00aeef;
+  line-height: 1.5em;
+  font-family: "KOPUSMjL";
+  text-indent: 0em;
+}
+h2.chaptitle2-1 {
+  display: block;
+  margin-left: 10px !important;
+  margin-right: 10px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: left;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-family: "KOPUSMjL";
+  text-indent: 0em;
+}
+h3.chaptitle3 {
+  display: block;
+  margin-left: 30px !important;
+  margin-right: 10px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-family: "KOPUSMjL";
+  text-indent: 0em;
+}
+h4.chaptitle4 {
+  display: block;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 1.7em;
+  margin-left: 30px !important;
+  margin-right: 10px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  color: #6c6e71;
+  text-indent: 0em;
+  font-family: "KOPUSGoB";
+}
+h5.chaptitle5 {
+  display: block;
+  font-size: 0.9em;
+  text-align: justify;
+  line-height: 1.7em;
+  margin-left: 10px !important;
+  margin-right: 10px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  color: #000000;
+  text-indent: 0em;
+  font-family: "KOPUSGoL";
+}
+h6.chaptitle6 {
+  display: block;
+  font-size: 0.8em;
+  text-align: justify;
+  line-height: 1.7em;
+  margin-left: 10px !important;
+  margin-right: 10px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  color: #000000;
+  text-indent: 0em;
+  font-family: "KOPUSGoB";
+}
+.box-line {
+  display: block;
+  text-indent: 0em;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.7em;
+  background-color: #e7e7e8;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding: 1em;
+  border-radius: 20px;
+}
+.box-color {
+  display: block;
+  text-indent: 0em;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 1.7em;
+  background-color: #e7e7e8;
+  margin-left: 1.1em;
+  margin-right: 1.1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding: 1em;
+}
+.box-color2 {
+  display: block;
+  text-indent: 0em;
+  font-size: 0.8em;
+  text-align: justify;
+  line-height: 1.7em;
+  background-color: #cccccc;
+  margin: 0px 0px 0px 0px;
+  border-radius: 15px;
+  font-family: "KOPUSGoB";
+  padding: 1em;
+}
+.glo-line {
+  display: block;
+  width: 150px;
+  font-size: 0.4em;
+  border-bottom-style: solid;
+  border-width: 1px;
+  margin-left: 2.2em;
+  text-indent: 0em;
+}
+.glossary {
+  text-indent: 0em;
+  display: block;
+  font-size: 0.8em;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-top: 0.8em;
+  margin-bottom: 0em;
+}
+.pagebreak {
+  page-break-before: always;
+}
+.underline {
+  text-decoration: underline;
+}
+.strike {
+  text-decoration: line-through;
+}
+.subscript {
+  font-size: 0.9em;
+}
+.subscript2 {
+  font-size: 0.8em;
+  font-family: "KOPUSGoB";
+  color: #16c1f3;
+}
+.subscript3 {
+  font-size: 0.8em;
+  font-family: "KOPUSGoB";
+  color: #939598;
+}
+.imgcenter {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  text-indent: 0em;
+}
+.imgtitle {
+  font-family: "KOPUSGoB";
+  font-size: 0.9em;
+  display: block;
+  text-align: left;
+  text-indent: 0em;
+}
+.image-caption {
+  display: block;
+  text-align: left;
+  font-size: 0.8em;
+  line-height: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-family: "KOPUSGoL";
+  text-indent: 0em;
+}
+.font1 {
+  display: block;
+  text-indent: -1.3em;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.7em;
+  margin-left: 3.2em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.font2 {
+  display: block;
+  text-indent: -1.8em;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.7em;
+  margin-left: 3.7em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.font3 {
+  display: block;
+  text-indent: -1.2em;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.7em;
+  margin-left: 3.1em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.font4 {
+  display: block;
+  text-indent: -1.2em;
+  text-align: justify;
+  font-size: 0.9em;
+  line-height: 1.7em;
+  margin-left: 2.3em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.font5 {
+  display: block;
+  text-indent: -2.5em;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.7em;
+  margin-left: 4.5em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.font6 {
+  display: block;
+  text-indent: -3.1em;
+  text-align: justify;
+  font-size: 0.9em;
+  line-height: 1.7em;
+  margin-left: 4.3em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.Go_Bold {
+  font-family: "KOPUSGoB";
+}
+.Go_Light2 {
+  font-family: "KOPUSGoL";
+  color: #00aeef;
+  vertical-align: text-top;
+}
+.Go_Light3 {
+  font-family: "KOPUSGoL";
+  vertical-align: text-top;
+}
+.Go_Light {
+  font-family: "KOPUSGoL";
+}
+.Mj_Bold {
+  font-family: "KOPUSMjB";
+}
+.Mj_Light {
+  font-family: "KOPUSMjL";
+}
+.noindent {
+  text-indent: 0em;
+}
+.color {
+  color: #00aeef;
+}
+.color2 {
+  color: #6e6e71;
+}
+.border_line {
+  border-bottom: dashed 1px;
+}
+.c_01 {
+  background-color: #6ecff6;
+  border-radius: 100px;
+  padding: 8px 5px 8px 5px;
+  color: #ffffff;
+  font-family: "KOPUSGoB";
+}
+.c_02 {
+  background-color: #939598;
+  border-radius: 100px;
+  padding: 8px 5px 8px 5px;
+  color: #ffffff;
+  font-family: "KOPUSGoB";
+}
+.Note {
+  font-family: "KOPUSGoB";
+  color: #6c6e71;
+  text-indent: 0em;
+}
+.Note_line {
+  border-bottom: solid 5px #bcbdc0;
+}

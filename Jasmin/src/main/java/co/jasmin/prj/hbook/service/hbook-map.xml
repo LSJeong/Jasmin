@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.hbook.service.HBookMapper">
+
+   <select id="hbookSelectList" resultType="co.jasmin.prj.hbook.service.HBookVO">
+      SELECT * FROM HOPEBOOK
+      ORDER BY NO DESC
+   </select>
+
+   <select id="hbookSelect" resultType="co.jasmin.prj.hbook.service.HBookVO">
+      SELECT * FROM HOPEBOOK WHERE NO = #{no}
+   </select>
+
+   <insert id="hbookInsert" parameterType="co.jasmin.prj.hbook.service.HBookVO">
+   <selectKey keyProperty="no" resultType="int" order="BEFORE">
+      SELECT NVL(MAX(NO),0)+1 FROM HOPEBOOK   
+   </selectKey>
+      INSERT INTO HOPEBOOK (NO, HTITLE, HCONTENT, HID)
+      VALUES(#{no},#{htitle},#{hcontent},#{hid})
+   </insert>
+   
+   <update id="hbookUpdate" parameterType="co.jasmin.prj.hbook.service.HBookVO">
+      UPDATE HOPEBOOK
+      SET htitle = #{htitle}, hcontent = #{hcontent} 
+      WHERE no = #{no}
+   </update>
+   
+   <delete id="hbookDelete" parameterType="co.jasmin.prj.hbook.service.HBookVO">
+      DELETE FROM HOPEBOOK WHERE NO = #{no}
+   </delete>
+   
+   <!-- 조회수 -->
+   <update id="updateCount" parameterType="int">
+      UPDATE HOPEBOOK SET CNT = CNT + 1 WHERE NO = #{no}
+   </update>
+
+
+</mapper>

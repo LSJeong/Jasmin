@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.member.service.MemberMapper">
+
+	<select id="memberSelectList" resultType="co.jasmin.prj.member.service.MemberVO">
+		SELECT * FROM MEMBER
+	</select>
+	
+	<select id="ajaxGetSearchList" parameterType="String" resultType="co.jasmin.prj.member.service.MemberVO">
+		select * from member 
+		<choose>
+			<when test="key.equals('id')">
+			where id like '%'|| #{keyword} || '%'
+			</when>
+			<when test="key.equals('name')">
+			where name like'%'|| #{keyword} || '%'
+			</when>			
+		</choose>
+	</select>
+	<select id="memberList" resultType="co.jasmin.prj.member.service.MemberVO">
+ 		SELECT * FROM MEMBER
+	</select>
+	
+	<select id="memberSelect" resultType="co.jasmin.prj.member.service.MemberVO">
+		SELECT * FROM MEMBER WHERE ID =#{id}
+		<if test="password!=null">
+		AND PASSWORD = #{password}
+		</if>
+	</select>
+	
+	<!-- 아이디 중복체크 -->
+	<select id="memberIdChk" resultType="int">
+		select count(*) from member
+		where id=#{id}
+	</select>
+	
+	<insert id="memberInsert" parameterType="co.jasmin.prj.member.service.MemberVO">
+		insert into member(id,password,name,address,tel,birth,email,addressdetail,zipcode)
+		values(#{id},#{password},#{name},#{address},#{tel},#{birth},#{email},#{addressdetail},#{zipCode})
+	
+	</insert>
+
+	<update id="memberUpdate" parameterType="co.jasmin.prj.member.service.MemberVO">
+		UPDATE MEMBER
+    	<set>
+      		<if test="tel != null">TEL=#{tel},</if>
+      		<if test="zipCode != null">ZIPCODE=#{zipCode},</if>
+      		<if test="address != null">ADDRESS=#{address},</if>
+      		<if test="addressdetail != null">addressdetail=#{addressdetail},</if>
+      		<if test="email != null">EMAIL=#{email}</if>
+      		
+    	</set>
+		WHERE ID = #{id}
+	</update>
+
+	<update id="memberDelete">
+		update member
+		set 
+		status = 'D'
+		where id =#{id}
+	</update>
+	
+	<!-- 비밀번호 체크 -->
+	<update id="memberPwdUpdate" parameterType="co.jasmin.prj.member.service.MemberVO">
+		UPDATE MEMBER
+		SET
+		PASSWORD=#{password}
+		WHERE ID = #{id}
+	</update>
+	
+	<select id="chkMemberId" resultType="co.jasmin.prj.member.service.MemberVO">
+		select * from member where name=#{name} and email=#{email}
+	</select>
+	
+	<select id="selectEmail" resultType="co.jasmin.prj.member.service.MemberVO">
+		select * from member where id=#{id} and email=#{email}
+	</select>
+	
+	<update id="newPwdUpdate" parameterType="co.jasmin.prj.member.service.MemberVO">
+		UPDATE MEMBER
+		SET
+		PASSWORD=#{password}
+		WHERE EMAIL=#{email}
+	</update>
+	
+	<select id="memberTotal" resultType="int">
+		SELECT COUNT(*) FROM MEMBER WHERE <![CDATA[STATUS <> 'D']]>
+	</select>
+</mapper>

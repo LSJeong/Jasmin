@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>코스모스</dc:title>
+    <dc:creator opf:role="aut">칼 세이건</dc:creator>
+    <dc:creator opf:role="trl">홍승수</dc:creator>
+    <dc:description>칼 세이건이 펼쳐 보이는 대우주의 신비! 전 세계 60개국, 6억 시청자, 600만 독자를 사로잡은 최고의 과학 책 『코스모스(Cosmos)』를 특별판으로 다시 만난다. 『코스모스』 특별판은 기존의 양장본의 텍스트 전문을 그대로 싣고 도판 중 본문을 이해하는 데 꼭 필요한 것들을 골라 실었다. 그중에서도 컬러로 봐야 할 도판 자료들을 60컷 가까이 골라 컬러 화보로 본문 중간중간에 배치해 넣었다. 또 하나 특기할 만한 것은 칼 세이건의 부인인 앤 드루얀이 칼 세이건 서거 10주기를 맞춰 세이건의 빈자리를 생각하는 아름다운 글을 한국어판 서문으로 실은 것이다. 세이건이 생전에 이루어 놓은 일들과 그가 살아 있었다면 지금 해냈을 일들을 생각하는 이 글은 『코스모스』가 가진 가치를 한층 빛내 주고 있다.</dc:description>
+    <dc:publisher>민음사</dc:publisher>
+    <dc:date>2020-11-02</dc:date>
+    <dc:format>epub</dc:format>
+    <dc:identifier id="bookid" opf:scheme="UUID">urn:uuid:4943b3c5-ab36-4811-a096-f1d7b2198e0b</dc:identifier>
+    <dc:identifier opf:scheme="ISBN">978-89-8371-663-7</dc:identifier>
+    <dc:language>ko</dc:language>
+    <dc:rights>한국어판 ⓒ ㈜사이언스북스, 2006. Printed in Seoul, Korea.</dc:rights>
+    <meta content="Adobe InDesign" name="generator"/>
+    <meta content="cover.jpg" name="cover"/>
+    <meta content="0.6.2" name="Sigil version"/>
+    <meta content="1" name="GBSProcVer"/>
+    <meta content="GoogleEbooks" name="GBSEpubSource"/>
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Images/author.jpg" id="author.jpg" media-type="image/jpeg"/>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+    <item href="Images/incover.jpg" id="incover.jpg" media-type="image/jpeg"/>
+    <item href="Images/title_page.jpg" id="title_page.jpg" media-type="image/jpeg"/>
+    <item href="Images/extra_01.jpg" id="extra_01.jpg" media-type="image/jpeg"/>
+    <item href="Images/txt_02.jpg" id="txt_02.jpg" media-type="image/jpeg"/>
+    <item href="Images/txt_01.jpg" id="txt_01.jpg" media-type="image/jpeg"/>
+    <item href="Images/img048.jpg" id="img048.jpg" media-type="image/jpeg"/>
+    <item href="Images/img052.jpg" id="img052.jpg" media-type="image/jpeg"/>
+    <item href="Images/img114.jpg" id="img114.jpg" media-type="image/jpeg"/>
+    <item href="Images/img122s.jpg" id="img122s.jpg" media-type="image/jpeg"/>
+    <item href="Images/img129.jpg" id="img129.jpg" media-type="image/jpeg"/>
+    <item href="Images/img130.jpg" id="img130.jpg" media-type="image/jpeg"/>
+    <item href="Images/img140.jpg" id="img140.jpg" media-type="image/jpeg"/>
+    <item href="Images/img142.jpg" id="img142.jpg" media-type="image/jpeg"/>
+    <item href="Images/img145.jpg" id="img145.jpg" media-type="image/jpeg"/>
+    <item href="Images/img199.jpg" id="img199.jpg" media-type="image/jpeg"/>
+    <item href="Images/img291.jpg" id="img291.jpg" media-type="image/jpeg"/>
+    <item href="Images/img300s.jpg" id="img300s.jpg" media-type="image/jpeg"/>
+    <item href="Images/img345.jpg" id="img345.jpg" media-type="image/jpeg"/>
+    <item href="Images/img371.jpg" id="img371.jpg" media-type="image/jpeg"/>
+    <item href="Images/img393.jpg" id="img393.jpg" media-type="image/jpeg"/>
+    <item href="Images/img395.jpg" id="img395.jpg" media-type="image/jpeg"/>
+    <item href="Images/img402h.jpg" id="img402h.jpg" media-type="image/jpeg"/>
+    <item href="Images/img423.jpg" id="img423.jpg" media-type="image/jpeg"/>
+    <item href="Images/img470h.jpg" id="img470h.jpg" media-type="image/jpeg"/>
+    <item href="Images/img502ss.jpg" id="img502ss.jpg" media-type="image/jpeg"/>
+    <item href="Images/img544s.jpg" id="img544s.jpg" media-type="image/jpeg"/>
+    <item href="Images/img588.jpg" id="img588.jpg" media-type="image/jpeg"/>
+    <item href="Images/img624h.jpg" id="img624h.jpg" media-type="image/jpeg"/>
+    <item href="Images/img638.jpg" id="img638.jpg" media-type="image/jpeg"/>
+    <item href="Images/img646.jpg" id="img646.jpg" media-type="image/jpeg"/>
+    <item href="Images/img662ss.jpg" id="img662ss.jpg" media-type="image/jpeg"/>
+    <item href="Images/img678.jpg" id="img678.jpg" media-type="image/jpeg"/>
+    <item href="Images/img599.jpg" id="img599.jpg" media-type="image/jpeg"/>
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/incover.xhtml" id="incover.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/title_page.xhtml" id="title_page.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/dedi.xhtml" id="dedi.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/head.xhtml" id="head.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/note.xhtml" id="note.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap01.xhtml" id="chap01.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap02.xhtml" id="chap02.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap03.xhtml" id="chap03.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap04.xhtml" id="chap04.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap05.xhtml" id="chap05.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap06.xhtml" id="chap06.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap07.xhtml" id="chap07.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap08.xhtml" id="chap08.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap09.xhtml" id="chap09.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap10.xhtml" id="chap10.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap11.xhtml" id="chap11.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap12.xhtml" id="chap12.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/chap13.xhtml" id="chap13.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/thanks.xhtml" id="thanks.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/extra01.xhtml" id="extra01.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/extra02.xhtml" id="extra02.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/biblio.xhtml" id="biblio.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/post-trans.xhtml" id="post-trans.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/comment.xhtml" id="comment.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/author.xhtml" id="author.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/colophon_en.xhtml" id="colophon_en.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Styles/base.css" id="base.css" media-type="text/css"/>
+    <item href="Fonts/KoPubBatangLight.ttf" id="KoPubBatangLight.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/KoPubDotumMedium.ttf" id="KoPubDotumMedium.ttf" media-type="application/vnd.ms-opentype"/>
+    <item href="Styles/add_new_.css" id="add_new_.css" media-type="text/css"/>
+    <item href="Styles/add_txtimg.css" id="add_txtimg.css" media-type="text/css"/>
+    <item href="_page_map_.xml" id="_page_map_" media-type="application/oebps-page-map+xml"/>
+  </manifest>
+  <spine page-map="_page_map_" toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="incover.xhtml"/>
+    <itemref idref="title_page.xhtml"/>
+    <itemref idref="dedi.xhtml"/>
+    <itemref idref="preface.xhtml"/>
+    <itemref idref="head.xhtml"/>
+    <itemref idref="note.xhtml"/>
+    <itemref idref="chap01.xhtml"/>
+    <itemref idref="chap02.xhtml"/>
+    <itemref idref="chap03.xhtml"/>
+    <itemref idref="chap04.xhtml"/>
+    <itemref idref="chap05.xhtml"/>
+    <itemref idref="chap06.xhtml"/>
+    <itemref idref="chap07.xhtml"/>
+    <itemref idref="chap08.xhtml"/>
+    <itemref idref="chap09.xhtml"/>
+    <itemref idref="chap10.xhtml"/>
+    <itemref idref="chap11.xhtml"/>
+    <itemref idref="chap12.xhtml"/>
+    <itemref idref="chap13.xhtml"/>
+    <itemref idref="thanks.xhtml"/>
+    <itemref idref="extra01.xhtml"/>
+    <itemref idref="extra02.xhtml"/>
+    <itemref idref="biblio.xhtml"/>
+    <itemref idref="post-trans.xhtml"/>
+    <itemref idref="comment.xhtml"/>
+    <itemref idref="author.xhtml"/>
+    <itemref idref="colophon.xhtml"/>
+    <itemref idref="colophon_en.xhtml"/>
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

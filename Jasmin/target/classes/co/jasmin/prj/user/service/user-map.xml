@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.user.service.UserMapper">
+<!-- 대출목록 -->
+<select id="selectRentBook" resultType="co.jasmin.prj.book.service.BookVO">
+	SELECT * FROM VW_RENT WHERE MID=#{mid} AND RDATE IS NOT NULL
+</select>
+
+<!-- ebook대출 -->
+<select id="selectRentEbook" resultType="co.jasmin.prj.book.service.BookVO">
+	SELECT * FROM VW_RENT WHERE MID=#{mid} AND deliveryn='N' AND RDATE IS NULL
+</select>
+
+<!-- 배송대출 -->
+<select id="selectRentDelivery" resultType="co.jasmin.prj.book.service.BookVO">
+	SELECT * FROM VW_RENT WHERE MID=#{mid} AND deliveryn='Y'
+</select>
+
+<select id="selectLikeBook" resultType="co.jasmin.prj.book.service.BookVO" >
+	SELECT * FROM vw_like WHERE id=#{id}
+</select>
+
+<!-- 개인 대출목록 -->
+<select id="userRentBook" resultType="co.jasmin.prj.book.service.BookVO">
+	SELECT * FROM VW_RENT WHERE MID=#{mid} AND ISBN=#{isbn}
+</select>
+<update id="extensionBook" parameterType="co.jasmin.prj.book.service.BookVO">
+	UPDATE RENT
+	SET BEND=BEND+7,RENEWCNT=1
+	WHERE MID=#{mid} AND BISBN=#{bisbn} and renewcnt=0 and rdate is null
+</update>
+
+<!-- 관심도서 삭제 -->
+<delete id="delLikeBook" parameterType="co.jasmin.prj.likebook.service.LikeBookVO">
+	DELETE FROM LIKEBOOK WHERE ISBN=#{isbn}
+</delete>
+
+<!-- 희망도서 삭제 -->
+<delete id="delHopeBook" parameterType="co.jasmin.prj.hbook.service.HBookVO">
+	DELETE FROM HOPEBOOK WHERE NO=#{no}
+</delete>
+<delete id="delBbsPost" parameterType="co.jasmin.prj.qna.service.QnaVO">
+	DELETE FROM QNA WHERE NO =#{no}
+</delete>
+<!-- 희망도서 조회 -->
+<select id="selectHbookByname" resultType="co.jasmin.prj.hbook.service.HBookVO">
+	SELECT * FROM HOPEBOOK WHERE HID=#{hid}
+</select>
+
+<!--묻고 답하기 -->
+<select id="selectQnaByname" parameterType="co.jasmin.prj.qna.service.QnaVO" resultType="co.jasmin.prj.qna.service.QnaVO">
+	SELECT * FROM QNA WHERE ID=#{id}
+</select>
+
+<!-- 이북 대출 카운트 -->
+<select id="countRentEbook" resultType="int">
+	select count(*) from rent where mid=#{mid} and deliveryn='N' and rdate is null
+</select>
+<!-- 배달 대출 카운트 -->
+<select id="countRentBook" resultType="int">
+	select count(*) from rent where mid=#{mid} and deliveryn='Y' and rdate is null
+</select>
+
+<!-- 관심도서 카운트 -->
+<select id="countLikebook" resultType="int">
+	select count(*) from likebook where id=#{id}
+</select>
+
+<!-- 희망도서 신청 카운트 -->
+<select id="countHbook" resultType="int">
+	select count(*) from hopebook where hid=#{hid}
+</select>
+
+<!-- 묻고답하기 카운트 -->
+<select id="countQna" resultType="int">
+	select count(*) from qna where id=#{id}
+</select>
+
+
+<select id="recommendBook" resultType="co.jasmin.prj.book.service.BookVO">
+	select * from book where bclass=(
+	select * from (select bclass from vw_rent where mid = #{mid} group by bclass order by count(*) desc) where rownum = 1 )
+</select>
+<select id="recommendLikeBook" resultType="co.jasmin.prj.book.service.BookVO">
+	select * from book where bclass=(
+	select * from (select bclass from vw_like where id = #{id} group by bclass order by count(*) desc) where rownum = 1 )
+</select>
+
+<select id="selectQnaReply" resultType="co.jasmin.prj.qna.service.QnaVO">
+	select * from vw_qna where id=#{id}
+</select>
+</mapper>

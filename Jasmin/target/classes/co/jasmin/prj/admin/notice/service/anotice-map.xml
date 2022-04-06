@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.admin.notice.service.ANoticeMapper">
+
+   <select id="anoticeSelectList" resultType="co.jasmin.prj.admin.notice.service.ANoticeVO">
+      SELECT * FROM NOTICE
+      ORDER BY NO DESC
+   </select>
+
+   <select id="anoticeSelect" resultType="co.jasmin.prj.admin.notice.service.ANoticeVO">
+      SELECT * FROM NOTICE WHERE NO = #{no}
+   </select>
+
+   <insert id="anoticeInsert" parameterType="co.jasmin.prj.admin.notice.service.ANoticeVO">
+      <selectKey keyProperty="no" resultType="int" order="BEFORE">
+         SELECT MAX(NO)+1 FROM NOTICE
+      </selectKey>
+      INSERT INTO NOTICE(NO, TITLE, CONTENT, NAME, CNT)
+      VALUES(#{no}, #{title}, #{content},#{name}, #{cnt})
+   </insert>
+
+   <update id="anoticeUpdate" parameterType="co.jasmin.prj.admin.notice.service.ANoticeVO">
+      UPDATE NOTICE
+      SET title = #{title}, content = #{content}
+      WHERE no = #{no}
+   </update>
+
+   <delete id="anoticeDelete" parameterType="co.jasmin.prj.admin.notice.service.ANoticeVO">
+      DELETE FROM NOTICE WHERE NO = #{no}
+   </delete>
+   
+   <!-- 조회수 -->
+   <update id="updateCount" parameterType="int">
+      UPDATE NOTICE SET CNT = CNT + 1 WHERE NO = #{no}
+   </update>
+</mapper>

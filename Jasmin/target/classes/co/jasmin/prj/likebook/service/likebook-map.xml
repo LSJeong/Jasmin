@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.likebook.service.LikeBookMapper">
+<select id="likebookList" resultType="co.jasmin.prj.likebook.service.LikeBookVO">
+	SELECT * FROM LIKEBOOK
+</select>
+
+<select id="likebookSelect" resultType="co.jasmin.prj.likebook.service.LikeBookVO">
+	SELECT * FROM LIKEBOOK WHERE ID = #{id} AND ISBN = #{isbn}
+</select>
+
+
+<insert id="likebookInsert" >
+	INSERT INTO LIKEBOOK VALUES(#{id}, #{isbn})
+</insert>
+
+<update id="likebookDelete" >
+	DELETE FROM LIKEBOOK WHERE ID = #{id} AND ISBN = #{isbn} 
+</update>
+</mapper>

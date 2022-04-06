@@ -1,0 +1,398 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+@font-face {
+  font-family: M;
+  src: url('../Fonts/KoPubBatangLight.ttf');
+}
+@font-face {
+  font-family: G;
+  src: url('../Fonts/KoPubDotumMedium.ttf');
+}
+.l {
+  text-align: left;
+}
+.r {
+  text-align: right !important;
+  text-indent: 0 !important;
+}
+.c {
+  text-align: center !important;
+  text-indent: 0 !important;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fx {
+  float: none !important;
+}
+.bx {
+  border: none !important;
+}
+body, ul, dl, ol, dt, dd, li, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+body {
+  font-family: M;
+  line-height: 2.15em;
+}
+h3#id_01, .h3#id_01, h4#id_01, .h4#id_01, h5#id_01, .h5#id_01 {
+  margin-top: 0;
+}
+.hidden {
+  visibility: hidden;
+}
+.top .hidden {
+  margin-right: -1em;
+}
+.sub .hidden {
+  margin-left: -1.5em;
+}
+.M {
+  font-family: M;
+}
+.G {
+  font-family: G;
+  font-size: 0.95em;
+}
+.GB {
+  font-family: G;
+}
+.iM {
+  font-family: "Times New Roman" , Times , serif;
+  font-style: italic;
+}
+.iG {
+  font-family: AppleGothic;
+  font-style: italic;
+}
+.OM {
+  font-family: "Old English Text MT" , Georgia , Droid Serif;
+  font-weight: bold;
+}
+.font_none {
+  font-family: tahoma , AppleGothic , times , serif;
+}
+.xxbig {
+  font-size: 1.55em;
+}
+.xbig {
+  font-size: 1.4em;
+}
+.big {
+  font-size: 1.2em;
+}
+.s {
+  font-size: 0.85em;
+}
+.ss {
+  font-size: 0.7em;
+}
+.br {
+  margin-bottom: 0.7em;
+}
+.overline {
+  text-decoration: overline;
+}
+.strike {
+  text-decoration: line-through;
+}
+.underline {
+  text-decoration: underline;
+}
+.b {
+  font-family: G;
+}
+.ruby {
+  font-family: G;
+}
+.mark1 {
+  font-size: 0.95em;
+  color: #777;
+  padding-right: 0.45em;
+}
+.by {
+  margin-top: 0.7em !important;
+}
+.wrap_part {
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+.part {
+  font-size: 1.07em;
+  line-height: 2em;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+.part h1 {
+  margin: 3.5em auto;
+}
+.part_group .top {
+  font-size: 0.7em;
+}
+.part_group .bottom {
+  font-size: 0.75em;
+}
+.part_group .main {
+  font-size: 1em;
+}
+.part_group .sub {
+  font-size: 0.65em;
+}
+.part_p {
+  margin: 0 auto;
+}
+h1 {
+  display: block;
+}
+.h2 {
+  font-size: 1.5em;
+  margin: 0 0 6em 0;
+  display: block;
+}
+.h2_a, .h2_txt {
+  font-size: 1.25em;
+  margin: 0 0 6em 0;
+  display: block;
+}
+.h2_main {
+  font-size: 1.25em;
+  margin: 0 0 2.2em 0;
+  display: block;
+}
+.h2_group0 {
+  margin: 0 0 3.1em 0;
+  display: block;
+}
+.h2_group {
+  font-size: 1em;
+  margin: 0 0 7em 0;
+  display: block;
+}
+.h2_group2 {
+  font-size: 0.85em;
+  margin: 0 0 7em 0;
+  display: block;
+}
+.top {
+  font-size: 1.2em;
+  margin: 0 0 0.1em 0;
+  line-height: 1.4em;
+  display: block;
+}
+.bottom {
+  font-size: 1.25em;
+  margin: 0.4em 0 0 0;
+  line-height: 1.5em;
+  display: block;
+}
+.main {
+  font-size: 1.5em;
+  line-height: 1.7em;
+  margin: 0;
+  display: block;
+}
+.sub {
+  font-size: 1.15em;
+  line-height: 1.35em;
+  display: block;
+}
+h3, .h3 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 2.6em 0 1.3em 0;
+  display: block;
+}
+h4, .h4 {
+  font-size: 1.25em;
+  font-weight: normal;
+  margin: 2.6em 0 1.3em 0;
+  display: block;
+}
+h5, .h5 {
+  font-size: 1.05em;
+  font-weight: normal;
+  margin: 2em 0 0 0;
+  display: block;
+  color: #555;
+}
+h6, .h6 {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin: 2em 0 0 0;
+  display: block;
+}
+.att_tit {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin: 0 0 2.5em 0;
+  display: block;
+}
+.att_tit2 {
+  font-size: 1em;
+  margin: 0 0 2.5em 0;
+  display: block;
+}
+p {
+  text-align: justify;
+  text-indent: 1em;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.p0 {
+  text-indent: 0em;
+  margin: 0;
+  display: block;
+}
+.p-1 {
+  text-indent: -1em;
+  font-size: 1em;
+  margin: 0 0 0 1em;
+  display: block;
+}
+.quote_tit {
+  font-size: 1em;
+  margin: 0 0 1em 1em;
+  display: block;
+}
+.quote, .quote2nd, .quote3rd {
+  font-size: 0.9em;
+  display: block;
+}
+.quote {
+  margin: 0 0 0 1.1em;
+}
+.dedi {
+  text-align: center;
+  text-indent: 0em;
+  font-size: 0.8em;
+  line-height: 1.9em;
+  margin: 0;
+  display: block;
+}
+.att_p {
+  text-indent: 1em;
+  font-size: 0.85em;
+  line-height: 1.9em;
+  margin: 0;
+  display: block;
+}
+.att_p0 {
+  text-indent: 0em;
+  font-size: 0.85em;
+  line-height: 1.9em;
+  margin: 0;
+  display: block;
+}
+.cap_tit {
+  font-size: 0.85em;
+  line-height: 1.9em;
+  margin: 0.35em 0 -0.1em;
+  display: block;
+}
+.cap {
+  font-size: 0.75em;
+  line-height: 1.8em;
+  margin: 0.35em 0 0;
+  display: block;
+}
+.char {
+  font-size: 0.95em;
+  color: #555;
+  padding-right: 1em;
+}
+.chron {
+  font-size: 0.9em;
+  margin: 1.2em 0 0;
+  display: block;
+}
+.cmm, .cmm_org {
+  text-align: left;
+  text-indent: 0em;
+}
+.cmm_list, .cmm_org_list {
+  padding-right: 0.75em;
+}
+.tit_col {
+  text-indent: 0em;
+  font-family: M;
+  color: #666;
+  font-size: 1.15em;
+  line-height: 1.25em;
+  margin: 0 0 1.3em 0;
+  display: block;
+}
+.tit_col2 {
+  text-indent: 0em;
+  font-family: M;
+  color: #666;
+  font-size: 1.15em;
+  line-height: 1.25em;
+  margin: 0;
+  display: block;
+}
+.col {
+  text-indent: 0em;
+  font-size: 0.8em;
+  line-height: 1.8em;
+  display: block;
+}
+.cols {
+  text-indent: 0em;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  display: block;
+}
+.img_full {
+  margin: 0 auto;
+  width: 95%;
+}
+.img_full img {
+  text-align: center;
+  text-indent: 0em;
+  line-height: 0;
+  margin: 0 auto;
+}
+.img_full, .img_cap {
+  text-align: center;
+  text-indent: 0em;
+  line-height: 0;
+  margin: 0 auto;
+  display: block;
+}
+.img_block, .img_blockh, .img_blocks {
+  text-align: center;
+  text-indent: 0em;
+  margin: 0 auto;
+  display: block;
+  float: left;
+}
+.img_inl {
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+.img_inr {
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
+.img_author {
+  display: block;
+}
+.icon {
+  text-indent: 0em;
+  line-height: 0em;
+  display: block;
+}

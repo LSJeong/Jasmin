@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:4943b3c5-ab36-4811-a096-f1d7b2198e0b" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>코스모스</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>속표지</text>
+      </navLabel>
+      <content src="Text/incover.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>첫 페이지</text>
+      </navLabel>
+      <content src="Text/title_page.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>헌사/제사</text>
+      </navLabel>
+      <content src="Text/dedi.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel>
+        <text>한국어판 서문 칼 세이건의 빈 의자1)</text>
+      </navLabel>
+      <content src="Text/preface.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel>
+        <text>머리말</text>
+      </navLabel>
+      <content src="Text/head.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-6" playOrder="6">
+      <navLabel>
+        <text>일러두기</text>
+      </navLabel>
+      <content src="Text/note.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel>
+        <text>1 코스모스의 바닷가에서</text>
+      </navLabel>
+      <content src="Text/chap01.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel>
+        <text>2 우주 생명의 푸가</text>
+      </navLabel>
+      <content src="Text/chap02.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel>
+        <text>3 지상과 천상의 하모니</text>
+      </navLabel>
+      <content src="Text/chap03.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-10" playOrder="10">
+      <navLabel>
+        <text>4 천국과 지옥</text>
+      </navLabel>
+      <content src="Text/chap04.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-11" playOrder="11">
+      <navLabel>
+        <text>5 붉은 행성을 위한 블루스</text>
+      </navLabel>
+      <content src="Text/chap05.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-12" playOrder="12">
+      <navLabel>
+        <text>6 여행자가 들려준 이야기</text>
+      </navLabel>
+      <content src="Text/chap06.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-13" playOrder="13">
+      <navLabel>
+        <text>7 밤하늘의 등뼈</text>
+      </navLabel>
+      <content src="Text/chap07.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-14" playOrder="14">
+      <navLabel>
+        <text>8 시간과 공간을 가르는 여행</text>
+      </navLabel>
+      <content src="Text/chap08.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-15" playOrder="15">
+      <navLabel>
+        <text>9 별들의 삶과 죽음</text>
+      </navLabel>
+      <content src="Text/chap09.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-16" playOrder="16">
+      <navLabel>
+        <text>10 영원의 벼랑 끝</text>
+      </navLabel>
+      <content src="Text/chap10.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-17" playOrder="17">
+      <navLabel>
+        <text>11 미래로 띄운 편지</text>
+      </navLabel>
+      <content src="Text/chap11.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-18" playOrder="18">
+      <navLabel>
+        <text>12 은하 대백과사전</text>
+      </navLabel>
+      <content src="Text/chap12.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-19" playOrder="19">
+      <navLabel>
+        <text>13 누가 우리 지구를 대변해 줄까?</text>
+      </navLabel>
+      <content src="Text/chap13.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-20" playOrder="20">
+      <navLabel>
+        <text>감사의 말</text>
+      </navLabel>
+      <content src="Text/thanks.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-21" playOrder="21">
+      <navLabel>
+        <text>부록 1 : 귀류법과 무리수</text>
+      </navLabel>
+      <content src="Text/extra01.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-22" playOrder="22">
+      <navLabel>
+        <text>부록 2 : 피타고라스의 다면체</text>
+      </navLabel>
+      <content src="Text/extra02.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-23" playOrder="23">
+      <navLabel>
+        <text>참고 문헌</text>
+      </navLabel>
+      <content src="Text/biblio.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-24" playOrder="24">
+      <navLabel>
+        <text>옮긴이 후기</text>
+      </navLabel>
+      <content src="Text/post-trans.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-25" playOrder="25">
+      <navLabel>
+        <text>주석</text>
+      </navLabel>
+      <content src="Text/comment.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-26" playOrder="26">
+      <navLabel>
+        <text>저자 소개</text>
+      </navLabel>
+      <content src="Text/author.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-27" playOrder="27">
+      <navLabel>
+        <text>판권</text>
+      </navLabel>
+      <content src="Text/colophon.xhtml" />
+    </navPoint>
+  </navMap>
+</ncx>

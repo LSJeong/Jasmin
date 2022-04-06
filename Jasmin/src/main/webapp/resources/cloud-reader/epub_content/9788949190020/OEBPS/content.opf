@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>모모</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Ende, Michael">Michael Ende</dc:creator>
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:1785bc3d-9816-48a2-a22c-49e9a61fe274</dc:identifier>
+    <dc:contributor opf:role="trl">한미희</dc:contributor>
+    <dc:description>잃어버린 꿈과 희망을 찾아 떠나는 20세기 최고의 판타지. 끊임없는 이야기와 모험과 상상력 속에서 행복을 즐기던 사람들한테 시간을 빼앗아 목숨을 이어가는 회색 신사들이 나타나 그 즐거움을 모두 빼앗아 간다. 모모, 호라 박사, 거북 카시오페이아는 일생일대의 모험을 벌이며 사람들에게 시간을 되찾아 준다. 전 세계 47개 언어로 번역된 이 작품은 기적과 신비와 온기로 가득 찬 세계로 인도하는 매력적인 동화다. “천재적인 상상력을 지닌 작가”라는 워싱턴 포스트와, “모든 사람들에게 폭발적인 관심을 불러일으킨 작품”이라는 슈피겔의 극찬에 걸맞게 엔데는 잃어버린 꿈과 환상의 세계를 되살려 낸다. 어른과 아이가 함께 읽기에 좋은 작품.</dc:description>
+    <dc:date>2017-11-15T15:00:00+00:00</dc:date>
+    <dc:publisher>(주) 비룡소</dc:publisher>
+    <dc:contributor opf:role="bkp">calibre (5.25.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:language>ko</dc:language>
+    <dc:identifier opf:scheme="calibre">494ee496-1ce4-40f1-92f9-8a1f43b60721</dc:identifier>
+    <dc:identifier opf:scheme="ISBN">9788949140506</dc:identifier>
+    <meta content="0.7.4" name="Sigil version"/>
+    <meta name="cover" content="cover.jpg"/>
+    <meta name="calibre:title_sort" content="모모"/>
+    <meta name="calibre:author_link_map" content="{&quot;Michael Ende&quot;: &quot;&quot;}"/>
+  </metadata>
+  <manifest>
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/pre000.xhtml" id="pre000.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/pre001.xhtml" id="pre001.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/dp1.xhtml" id="dp1.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/dp1_1.xhtml" id="dp1_1.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p01.xhtml" id="p01.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p02.xhtml" id="p02.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p03.xhtml" id="p03.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p04.xhtml" id="p04.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p05.xhtml" id="p05.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/dp2.xhtml" id="dp2.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/dp2_1.xhtml" id="dp2_1.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p06.xhtml" id="p06.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p07.xhtml" id="p07.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p08.xhtml" id="p08.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p09.xhtml" id="p09.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p10.xhtml" id="p10.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p11.xhtml" id="p11.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p12.xhtml" id="p12.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/dp3.xhtml" id="dp3.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/dp3_1.xhtml" id="dp3_1.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p13.xhtml" id="p13.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p14.xhtml" id="p14.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p15.xhtml" id="p15.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p16.xhtml" id="p16.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p17.xhtml" id="p17.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p18.xhtml" id="p18.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p19.xhtml" id="p19.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p20.xhtml" id="p20.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p21.xhtml" id="p21.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p22.xhtml" id="p22.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/p23.xhtml" id="p23.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/author.xhtml" id="author.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/rights.xhtml" id="rights.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/rights_1.xhtml" id="rights_1.xhtml" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Styles/bir_style_v001.css" id="Style0001.css" media-type="text/css"/>
+    <item href="Images/author.jpg" id="author.jpg" media-type="image/jpeg"/>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+    <item href="Images/dp1.jpg" id="dp1.jpg" media-type="image/jpeg"/>
+    <item href="Images/dp2.jpg" id="dp2.jpg" media-type="image/jpeg"/>
+    <item href="Images/dp3.jpg" id="dp3.jpg" media-type="image/jpeg"/>
+    <item href="Images/p110.jpg" id="p110.jpg" media-type="image/jpeg"/>
+    <item href="Images/p119.jpg" id="p119.jpg" media-type="image/jpeg"/>
+    <item href="Images/p135.jpg" id="p135.jpg" media-type="image/jpeg"/>
+    <item href="Images/p150.jpg" id="p150.jpg" media-type="image/jpeg"/>
+    <item href="Images/p152.jpg" id="p152.jpg" media-type="image/jpeg"/>
+    <item href="Images/p165.jpg" id="p165.jpg" media-type="image/jpeg"/>
+    <item href="Images/p170.jpg" id="p170.jpg" media-type="image/jpeg"/>
+    <item href="Images/p184.jpg" id="p184.jpg" media-type="image/jpeg"/>
+    <item href="Images/p195.jpg" id="p195.jpg" media-type="image/jpeg"/>
+    <item href="Images/p20.jpg" id="p20.jpg" media-type="image/jpeg"/>
+    <item href="Images/p225.jpg" id="p225.jpg" media-type="image/jpeg"/>
+    <item href="Images/p258.jpg" id="p258.jpg" media-type="image/jpeg"/>
+    <item href="Images/p269.jpg" id="p269.jpg" media-type="image/jpeg"/>
+    <item href="Images/p284.jpg" id="p284.jpg" media-type="image/jpeg"/>
+    <item href="Images/p295.jpg" id="p295.jpg" media-type="image/jpeg"/>
+    <item href="Images/p31.jpg" id="p31.jpg" media-type="image/jpeg"/>
+    <item href="Images/p310.jpg" id="p310.jpg" media-type="image/jpeg"/>
+    <item href="Images/p319.jpg" id="p319.jpg" media-type="image/jpeg"/>
+    <item href="Images/p335.jpg" id="p335.jpg" media-type="image/jpeg"/>
+    <item href="Images/p346.jpg" id="p346.jpg" media-type="image/jpeg"/>
+    <item href="Images/p362.jpg" id="p362.jpg" media-type="image/jpeg"/>
+    <item href="Images/p47.jpg" id="p47.jpg" media-type="image/jpeg"/>
+    <item href="Images/p58.jpg" id="p58.jpg" media-type="image/jpeg"/>
+    <item href="Images/p74.jpg" id="p74.jpg" media-type="image/jpeg"/>
+    <item href="Images/p98.jpg" id="p98.jpg" media-type="image/jpeg"/>
+    <item href="Images/pre001.jpg" id="pre001.jpg" media-type="image/jpeg"/>
+    <item href="Fonts/KoPubBatangLight.ttf" id="KoPubBatangLight.ttf" media-type="application/x-font-ttf"/>
+    <item href="Fonts/KoPubDotumBold.ttf" id="KoPubDotumBold.ttf" media-type="application/x-font-ttf"/>
+    <item href="Fonts/KoPubDotumLight.ttf" id="KoPubDotumLight.ttf" media-type="application/x-font-ttf"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="pre000.xhtml"/>
+    <itemref idref="pre001.xhtml"/>
+    <itemref idref="dp1.xhtml"/>
+    <itemref idref="dp1_1.xhtml"/>
+    <itemref idref="p01.xhtml"/>
+    <itemref idref="p02.xhtml"/>
+    <itemref idref="p03.xhtml"/>
+    <itemref idref="p04.xhtml"/>
+    <itemref idref="p05.xhtml"/>
+    <itemref idref="dp2.xhtml"/>
+    <itemref idref="dp2_1.xhtml"/>
+    <itemref idref="p06.xhtml"/>
+    <itemref idref="p07.xhtml"/>
+    <itemref idref="p08.xhtml"/>
+    <itemref idref="p09.xhtml"/>
+    <itemref idref="p10.xhtml"/>
+    <itemref idref="p11.xhtml"/>
+    <itemref idref="p12.xhtml"/>
+    <itemref idref="dp3.xhtml"/>
+    <itemref idref="dp3_1.xhtml"/>
+    <itemref idref="p13.xhtml"/>
+    <itemref idref="p14.xhtml"/>
+    <itemref idref="p15.xhtml"/>
+    <itemref idref="p16.xhtml"/>
+    <itemref idref="p17.xhtml"/>
+    <itemref idref="p18.xhtml"/>
+    <itemref idref="p19.xhtml"/>
+    <itemref idref="p20.xhtml"/>
+    <itemref idref="p21.xhtml"/>
+    <itemref idref="p22.xhtml"/>
+    <itemref idref="p23.xhtml"/>
+    <itemref idref="author.xhtml"/>
+    <itemref idref="rights.xhtml"/>
+    <itemref idref="rights_1.xhtml"/>
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

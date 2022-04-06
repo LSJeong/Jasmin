@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>artistName</key>
+	<string>지은이 히라이데 다카시, 옮긴이 양윤옥</string>
+	<key>book-info</key>
+	<dict>
+		<key>cover-image-hash</key>
+		<string>6B5A71BEF61452147F4037978F82FDF7</string>
+		<key>cover-image-path</key>
+		<string>OEBPS/Images/cover.jpg</string>
+		<key>mime-type</key>
+		<string>application/epub+zip</string>
+		<key>package-file-hash</key>
+		<string>691DF9D649F4D9CA558BF1EF00BBA1AA</string>
+		<key>publisher-unique-id</key>
+		<string>urn:uuid:b0dee436-f5af-4eec-b660-0480bda60838</string>
+		<key>unique-id</key>
+		<integer>7695795496473681441</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>itemName</key>
+	<string>고양이 손님</string>
+	<key>playlistName</key>
+	<string>고양이 손님</string>
+	<key>releaseDate</key>
+	<string>2019-02-11</string>
+</dict>
+</plist>

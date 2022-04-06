@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.breview.service.BreviewMapper">
+	<select id="breviewSelectList" resultType="co.jasmin.prj.breview.service.BreviewVO">
+		select * from breview where isbn = #{isbn} order by wdate desc
+	</select>
+	
+	<select id="breviewSelect" resultType="co.jasmin.prj.breview.service.BreviewVO">
+		select * from breview where isbn = #{isbn} and id = #{id}
+	</select>
+	
+	<insert id="breviewInsert" parameterType="co.jasmin.prj.breview.service.BreviewVO">
+		insert into breview values(#{isbn}, #{id}, #{subject}, sysdate, #{star})
+	</insert>
+	
+	<delete id="breviewDelete" parameterType="co.jasmin.prj.breview.service.BreviewVO">
+		delete from breview where id = #{id} and isbn = #{isbn}
+	</delete>
+	
+	<select id="breviewAvg" resultType="Integer">
+		select round(avg(star)) as avg from breview where isbn=#{isbn}
+	</select>
+</mapper>

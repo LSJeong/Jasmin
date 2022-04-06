@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="generator" content="BUILDBOOK EPub Generator" />
+    <meta name="dtb:uid" content="urn:uuid:0f770525-b4b8-4936-b512-b919ac7ff691" />
+  </head>
+  <docTitle>
+    <text>심리학, 미루는 습관을 바꾸다</text>
+  </docTitle>
+  <docAuthor>
+    <text>윌리엄 너스</text>
+  </docAuthor>
+  <navMap>
+    <navPoint id="np_1" playOrder="1">
+      <navLabel>
+        <text>처음으로</text>
+      </navLabel>
+      <content src="Text/page_1.html" />
+    </navPoint>
+    <navPoint id="np_2" playOrder="2">
+      <navLabel>
+        <text>추천의 글_“언제든 할 수 있는 일은 결국 하지 못하게 된다.”</text>
+      </navLabel>
+      <content src="Text/page_5.html#p5_t2" />
+    </navPoint>
+    <navPoint id="np_3" playOrder="3">
+      <navLabel>
+        <text>프롤로그_미루고 회피하는 나의 마음을 들여다보다</text>
+      </navLabel>
+      <content src="Text/page_9.html#p9_t2" />
+    </navPoint>
+    <navPoint id="np_4" playOrder="4">
+      <navLabel>
+        <text>제1부 습관을 이기는 심리 훈련</text>
+      </navLabel>
+      <content src="Text/page_16.html#p16_t3" />
+      <navPoint id="np_5" playOrder="5">
+        <navLabel>
+          <text>다른 길을 선택하다</text>
+        </navLabel>
+        <content src="Text/page_17.html#p17_t2" />
+      </navPoint>
+      <navPoint id="np_6" playOrder="6">
+        <navLabel>
+          <text>‘나는 미루는 사람’이라는 꼬리표 떼기</text>
+        </navLabel>
+        <content src="Text/page_20.html#p20_t3" />
+      </navPoint>
+      <navPoint id="np_7" playOrder="7">
+        <navLabel>
+          <text>완벽하지 않으면 실패다?</text>
+        </navLabel>
+        <content src="Text/page_22.html#p22_t3" />
+      </navPoint>
+      <navPoint id="np_8" playOrder="8">
+        <navLabel>
+          <text>인지적·정서적·행동적으로 긍정적인 기법</text>
+        </navLabel>
+        <content src="Text/page_26.html#p26_t3" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="np_9" playOrder="9">
+      <navLabel>
+        <text>제2부 미루는 습관은 단순하지 않다: 인지적 접근</text>
+      </navLabel>
+      <content src="Text/page_32.html#p32_t3" />
+      <navPoint id="np_10" playOrder="10">
+        <navLabel>
+          <text>습관은 예기치 못한 방향으로 흘러간다</text>
+        </navLabel>
+        <content src="Text/page_33.html#p33_t2" />
+      </navPoint>
+      <navPoint id="np_11" playOrder="11">
+        <navLabel>
+          <text>시급하지 않은 목표에 제일 먼저 매달리는 이유</text>
+        </navLabel>
+        <content src="Text/page_37.html#p37_t2" />
+      </navPoint>
+      <navPoint id="np_12" playOrder="12">
+        <navLabel>
+          <text>문제를 회피하고 싶어 하는 마음</text>
+        </navLabel>
+        <content src="Text/page_42.html#p42_t3" />
+      </navPoint>
+      <navPoint id="np_13" playOrder="13">
+        <navLabel>
+          <text>‘나중에’라는 환상</text>
+        </navLabel>
+        <content src="Text/page_48.html#p48_t3" />
+      </navPoint>
+      <navPoint id="np_14" playOrder="14">
+        <navLabel>
+          <text>회피하고 회피하고 또 회피하는 것</text>
+        </navLabel>
+        <content src="Text/page_52.html#p52_t3" />
+      </navPoint>
+      <navPoint id="np_15" playOrder="15">
+        <navLabel>
+          <text>가상적 사고를 활용하라</text>
+        </navLabel>
+        <content src="Text/page_56.html#p56_t3" />
+      </navPoint>
+      <navPoint id="np_16" playOrder="16">
+        <navLabel>
+          <text>가장 효과적인 질문</text>
+        </navLabel>
+        <content src="Text/page_60.html#p60_t3" />
+      </navPoint>
+      <navPoint id="np_17" playOrder="17">
+        <navLabel>
+          <text>삶에서 가장 중요한 것</text>
+        </navLabel>
+        <content src="Text/page_65.html#p65_t2" />
+      </navPoint>
+      <navPoint id="np_18" playOrder="18">
+        <navLabel>
+          <text>새로운 습관이 자리 잡는 과정</text>
+        </navLabel>
+        <content src="Text/page_71.html#p71_t2" />
+      </navPoint>
+      <navPoint id="np_19" playOrder="19">
+        <navLabel>
+          <text>변화는 뚝딱 일어나지 않는다</text>
+        </navLabel>
+        <content src="Text/page_74.html#p74_t3" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="np_20" playOrder="20">
+      <navLabel>
+        <text>제3부 감정 근육을 키우는 방법: 정서적 접근</text>
+      </navLabel>
+      <content src="Text/page_84.html#p84_t3" />
+      <navPoint id="np_21" playOrder="21">
+        <navLabel>
+          <text>인생은 굉장하지도 끔찍하지도 않다</text>
+        </navLabel>
+        <content src="Text/page_85.html#p85_t2" />
+      </navPoint>
+      <navPoint id="np_22" playOrder="22">
+        <navLabel>
+          <text>미루는 습관과 연결된 감정 조건</text>
+        </navLabel>
+        <content src="Text/page_88.html#p88_t3" />
+      </navPoint>
+      <navPoint id="np_23" playOrder="23">
+        <navLabel>
+          <text>불확실성 앞에서 느끼는 무력감에 대해</text>
+        </navLabel>
+        <content src="Text/page_92.html#p92_t3" />
+      </navPoint>
+      <navPoint id="np_24" playOrder="24">
+        <navLabel>
+          <text>Y의사결정 해법</text>
+        </navLabel>
+        <content src="Text/page_97.html#p97_t2" />
+      </navPoint>
+      <navPoint id="np_25" playOrder="25">
+        <navLabel>
+          <text>보이는 목표와 숨은 목표</text>
+        </navLabel>
+        <content src="Text/page_101.html#p101_t2" />
+      </navPoint>
+      <navPoint id="np_26" playOrder="26">
+        <navLabel>
+          <text>장기적 이익을 내다보는 연습</text>
+        </navLabel>
+        <content src="Text/page_104.html#p104_t3" />
+      </navPoint>
+      <navPoint id="np_27" playOrder="27">
+        <navLabel>
+          <text>불편함을 견디는 과정</text>
+        </navLabel>
+        <content src="Text/page_109.html#p109_t2" />
+      </navPoint>
+      <navPoint id="np_28" playOrder="28">
+        <navLabel>
+          <text>“난 그 긴장감을 견뎌내지 못할 거야.”</text>
+        </navLabel>
+        <content src="Text/page_114.html#p114_t3" />
+      </navPoint>
+      <navPoint id="np_29" playOrder="29">
+        <navLabel>
+          <text>감정적 전투 상태에 빠지는 순간</text>
+        </navLabel>
+        <content src="Text/page_120.html#p120_t3" />
+      </navPoint>
+      <navPoint id="np_30" playOrder="30">
+        <navLabel>
+          <text>누구나 자신의 스트레스를 과장한다</text>
+        </navLabel>
+        <content src="Text/page_124.html#p124_t3" />
+      </navPoint>
+      <navPoint id="np_31" playOrder="31">
+        <navLabel>
+          <text>남에게 평가받는 것에 대한 두려움</text>
+        </navLabel>
+        <content src="Text/page_129.html#p129_t2" />
+      </navPoint>
+      <navPoint id="np_32" playOrder="32">
+        <navLabel>
+          <text>선언적인 언어의 힘</text>
+        </navLabel>
+        <content src="Text/page_135.html#p135_t2" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="np_33" playOrder="33">
+      <navLabel>
+        <text>제4부 내 삶을 긍정적으로 바꾼다: 행동적 접근</text>
+      </navLabel>
+      <content src="Text/page_140.html#p140_t3" />
+      <navPoint id="np_34" playOrder="34">
+        <navLabel>
+          <text>확실하지 않은 적과의 싸움</text>
+        </navLabel>
+        <content src="Text/page_141.html#p141_t2" />
+      </navPoint>
+      <navPoint id="np_35" playOrder="35">
+        <navLabel>
+          <text>결정을 계속 미루게 하는 것은 무엇인가</text>
+        </navLabel>
+        <content src="Text/page_147.html#p147_t2" />
+      </navPoint>
+      <navPoint id="np_36" playOrder="36">
+        <navLabel>
+          <text>“어디서부터 시작해야 할지 모르겠어.”</text>
+        </navLabel>
+        <content src="Text/page_152.html#p152_t3" />
+      </navPoint>
+      <navPoint id="np_37" playOrder="37">
+        <navLabel>
+          <text>‘언제 가장 미루고 싶은가’라는 질문</text>
+        </navLabel>
+        <content src="Text/page_157.html#p157_t2" />
+      </navPoint>
+      <navPoint id="np_38" playOrder="38">
+        <navLabel>
+          <text>회피 충동을 파고드는 법</text>
+        </navLabel>
+        <content src="Text/page_162.html#p162_t3" />
+      </navPoint>
+      <navPoint id="np_39" playOrder="39">
+        <navLabel>
+          <text>불안이나 공허함을 회피하기 위한 행동</text>
+        </navLabel>
+        <content src="Text/page_167.html#p167_t2" />
+      </navPoint>
+      <navPoint id="np_40" playOrder="40">
+        <navLabel>
+          <text>시간 관리는 효율적인 행동 기법일까?</text>
+        </navLabel>
+        <content src="Text/page_171.html#p171_t2" />
+      </navPoint>
+      <navPoint id="np_41" playOrder="41">
+        <navLabel>
+          <text>생각 멈추기 연습</text>
+        </navLabel>
+        <content src="Text/page_175.html#p175_t2" />
+      </navPoint>
+      <navPoint id="np_42" playOrder="42">
+        <navLabel>
+          <text>조직화하고 단순화하라</text>
+        </navLabel>
+        <content src="Text/page_181.html#p181_t2" />
+      </navPoint>
+      <navPoint id="np_43" playOrder="43">
+        <navLabel>
+          <text>5분 계획 사용법</text>
+        </navLabel>
+        <content src="Text/page_185.html#p185_t2" />
+      </navPoint>
+      <navPoint id="np_44" playOrder="44">
+        <navLabel>
+          <text>자신에 대한 높은 기대치를 조정하라</text>
+        </navLabel>
+        <content src="Text/page_189.html#p189_t2" />
+      </navPoint>
+      <navPoint id="np_45" playOrder="45">
+        <navLabel>
+          <text>어떻게 학습 혐오 사이클을 끊을 것인가</text>
+        </navLabel>
+        <content src="Text/page_195.html#p195_t2" />
+      </navPoint>
+      <navPoint id="np_46" playOrder="46">
+        <navLabel>
+          <text>미루기 노출 훈련</text>
+        </navLabel>
+        <content src="Text/page_201.html#p201_t2" />
+      </navPoint>
+      <navPoint id="np_47" playOrder="47">
+        <navLabel>
+          <text>변화는 어떻게 시작되는가</text>
+        </navLabel>
+        <content src="Text/page_204.html#p204_t3" />
+      </navPoint>
+      <navPoint id="np_48" playOrder="48">
+        <navLabel>
+          <text>현실적인 목표를 세워라</text>
+        </navLabel>
+        <content src="Text/page_208.html#p208_t3" />
+      </navPoint>
+      <navPoint id="np_49" playOrder="49">
+        <navLabel>
+          <text>과거의 습관을 고려하라</text>
+        </navLabel>
+        <content src="Text/page_214.html#p214_t3" />
+      </navPoint>
+      <navPoint id="np_50" playOrder="50">
+        <navLabel>
+          <text>기다리기와 행동하기의 격차를 뛰어넘다</text>
+        </navLabel>
+        <content src="Text/page_219.html#p219_t2" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="np_51" playOrder="51">
+      <navLabel>
+        <text>에필로그_미루는 습관이 알려주는 나의 진짜 욕망</text>
+      </navLabel>
+      <content src="Text/page_222.html#p222_t3" />
+    </navPoint>
+  </navMap>
+</ncx>

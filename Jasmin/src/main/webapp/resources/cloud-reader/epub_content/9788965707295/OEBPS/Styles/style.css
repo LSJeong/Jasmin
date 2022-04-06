@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "MjB";
+  font-weight: bold;
+  src: url('../Fonts/KOPUSMjB.ttf');
+}
+@font-face {
+  font-family: "MjL";
+  font-weight: normal;
+  src: url('../Fonts/KOPUSMjL.ttf');
+}
+@font-face {
+  font-family: "MjM";
+  font-weight: normal;
+  src: url('../Fonts/KOPUSMjM.ttf');
+}
+@font-face {
+  font-family: "GoB";
+  font-weight: bold;
+  src: url('../Fonts/KOPUSGoB.ttf');
+}
+@font-face {
+  font-family: "GoL";
+  font-weight: normal;
+  src: url('../Fonts/KOPUSGoL.ttf');
+}
+@font-face {
+  font-family: "GoM";
+  font-weight: normal;
+  src: url('../Fonts/KOPUSGoM.ttf');
+}
+body {
+  font-family: 'MjL' , 'GoL' , 'serif';
+}
+p {
+  display: block;
+  font-size: 1.0em;
+  text-align: justify;
+  line-height: 1.8em;
+  text-indent: 1em;
+  margin: 0em;
+}
+h1, h2 {
+  display: none;
+}
+a:link, a:visited, a:active, a:hover, a:focus {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  max-width: 100%;
+  max-height: 95%;
+}
+.img_center {
+  text-indent: 0em;
+  text-align: center;
+  margin: 0em 1em;
+}
+.img_caption {
+  font-family: 'GoB';
+  font-size: 0.8em;
+  text-indent: 0em;
+  margin: 0em;
+  word-break: break-all;
+}
+.kpc_dotum p {
+  font-family: 'GoL';
+  font-size: 0.9em;
+  text-indent: 0em;
+  line-height: 1.9em;
+}
+.kpc_dotum p.slogan {
+  font-family: 'GoB';
+}
+.right {
+  text-align: right;
+  text-indent: 0em;
+}
+.left {
+  text-align: left;
+  text-indent: 0em;
+}
+.center {
+  text-align: center;
+  text-indent: 0em;
+}
+.pg_next {
+  page-break-before: always;
+  margin-top: 1em;
+}
+.word_b {
+  word-break: break-all;
+}
+.italic {
+  font-family: 'serif';
+  font-style: italic;
+}
+.MjB {
+  font-family: "MjB";
+}
+.MjL {
+  font-family: "MjL";
+}
+.MjM {
+  font-family: "MjM";
+}
+.GoB {
+  font-family: "GoB";
+}
+.GoL {
+  font-family: "GoL";
+}
+.GoM {
+  font-family: "GoM";
+}
+.f14 {
+  font-size: 1.4em;
+}
+.f12 {
+  font-size: 1.2em;
+}
+.f11 {
+  font-size: 1.1em;
+}
+.f09 {
+  font-size: 0.9em;
+}
+.f08 {
+  font-size: 0.8em;
+}
+.in0 {
+  text-indent: 0em;
+}
+.author p {
+  text-indent: 0em;
+  font-size: 0.9em;
+}
+.rights p {
+  text-indent: 0em;
+  font-size: 0.9em;
+}
+.box2 {
+  border: 0.1em solid #000;
+  display: block;
+  padding: 0.5em;
+}
+.box2 p {
+  text-indent: 0em;
+  font-size: 0.9em;
+}
+.r_in {
+  text-indent: -0.7em;
+  padding-left: 0.7em;
+  font-size: 0.9em;
+}
+.mb05 {
+  margin-bottom: 0.5em;
+}
+.mb08 {
+  margin-bottom: 0.8em;
+}
+.b_txt {
+  font-size: 0.8em;
+}
+.txt_s {
+  font-size: 0.9em;
+}
+.vm {
+  vertical-align: 0.3em;
+  margin-right: 0.5em;
+}
+.bold_txt {
+  font-family: 'GoM';
+  font-size: 0.95em;
+}
+.qu {
+  font-size: 0.9em;
+}
+.qu_in {
+  font-size: 0.9em;
+  text-indent: 0em;
+  margin-left: 1.2em;
+}

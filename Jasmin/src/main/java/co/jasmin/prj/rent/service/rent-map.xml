@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.rent.service.RentMapper">
+	<insert id="renteBook" parameterType="co.jasmin.prj.rent.service.RentVO">
+		INSERT INTO RENT(MID, BISBN, DELIVERYN, DELIVERSTATE) VALUES(#{mid}, #{bisbn}, #{deliveryn}, #{deliverstate} )
+	</insert>
+	
+	<insert id="rentdeliverBook" parameterType="co.jasmin.prj.rent.service.RentVO">
+		INSERT INTO RENT(MID, BISBN, BEND, DELIVERYN, DELIVERSTATE) VALUES(#{mid}, #{bisbn}, sysdate+14, #{deliveryn}, #{deliverstate} )
+	</insert>
+	
+	<select id="bookbendDate" parameterType="String" resultType="String">
+		SELECT MIN(BEND) FROM RENT WHERE BISBN = #{bisbn} AND RDATE IS NULL ORDER BY BEND
+	</select>
+	
+	<select id="bookrentCheck" resultType="co.jasmin.prj.rent.service.RentVO">
+		SELECT * FROM RENT WHERE mid = #{mid} and bisbn = #{bisbn} and rdate is null
+	</select>
+	
+	<update id="returneBook" parameterType="co.jasmin.prj.rent.service.RentVO"  >
+		update rent set rdate = sysdate, delaydate = 
+		case when <![CDATA[TO_CHAR(SYSDATE, 'YYYYMMDD') - TO_CHAR(bend, 'YYYYMMDD') < 0]]> then 0
+		else TO_CHAR(SYSDATE, 'YYYYMMDD') - TO_CHAR(bend, 'YYYYMMDD') end
+		where mid = #{mid} and bisbn = #{bisbn} and rdate is null
+	</update>
+	
+	<update id="returndeliverBook" parameterType="co.jasmin.prj.rent.service.RentVO"  >
+		update rent set deliverstate = #{deliverstate}
+		where mid = #{mid} and bisbn = #{bisbn} and rdate is null
+	</update>
+	
+	<select id="rentInfoList" resultType="co.jasmin.prj.rent.service.RentVO">
+		 SELECT * FROM INFO WHERE MID = #{infoid}		 
+	</select>
+	
+	<select id="arentlist" resultType="co.jasmin.prj.rent.service.RentVO">
+       SELECT * FROM INFO       
+   </select>
+   
+   <select id="ajaxGetSearchRentList" parameterType="String" resultType="co.jasmin.prj.rent.service.RentVO">
+      SELECT * FROM INFO 
+      <choose>
+         <when test="Rkey.equals('mid')">
+         where mid like '%'|| #{Rkeyword} || '%'
+         </when>
+         <when test="Rkey.equals('name')">
+         where name like '%'|| #{Rkeyword} || '%'
+         </when>
+         <when test="Rkey.equals('title')">
+         where title like '%'|| #{Rkeyword} || '%'
+         </when>
+      </choose>
+   </select>
+   
+   <update id="deliverstateUpdate" parameterType="co.jasmin.prj.rent.service.RentVO">
+      UPDATE RENT SET DELIVERSTATE = #{deliverstate}
+      <if test='deliverstate !=null and !deliverstate.equals("") and deliverstate.equals("수거완료")'>
+         , RDATE = sysdate, delaydate = 
+      case when <![CDATA[TO_CHAR(SYSDATE, 'YYYYMMDDHH24MISS') - TO_CHAR(bend, 'YYYYMMDDHH24MISS') < 0]]> then 0
+      else TO_CHAR(SYSDATE, 'YYYYMMDDHH24MISS') - TO_CHAR(bend, 'YYYYMMDDHH24MISS') end
+      </if>
+      <if test='deliverstate !=null and !deliverstate.equals("") and deliverstate.equals("배송요청")'>
+         , RDATE = null, delaydate = null
+      </if>
+      <if test='deliverstate !=null and !deliverstate.equals("") and deliverstate.equals("배송중")'>
+         , RDATE = null, delaydate = null
+      </if>
+      <if test='deliverstate !=null and !deliverstate.equals("") and deliverstate.equals("배송완료")'>
+         , RDATE = null, delaydate = null
+      </if>
+      <if test='deliverstate !=null and !deliverstate.equals("") and deliverstate.equals("수거요청")'>
+         , RDATE = null, delaydate = null
+      </if>
+      <if test='deliverstate !=null and !deliverstate.equals("") and deliverstate.equals("수거중")'>
+         , RDATE = null, delaydate = null
+      </if>
+      WHERE BISBN = #{bisbn} AND TO_CHAR(BSTART, 'YYYY-MM-DD HH24:MI:SS') = #{bstart}
+   </update>
+   
+	<select id="rentCountCheck" parameterType="co.jasmin.prj.rent.service.RentVO" resultType="int">
+		SELECT count(*) from rent where mid = #{mid} and rdate is null and deliverstate != '수거요청'
+	</select>
+	
+	<select id="chartSearch" resultType="co.jasmin.prj.rent.service.RentVO">
+		select mon, nvl(rr,0) RR from month a, 
+		(select to_char(rdate, 'MM') dd, count(*) rr from rent where delaydate is not null and <![CDATA[delaydate <> 0]]>
+		 and to_char(rdate,'YYYY')=#{year} group by to_char(rdate, 'MM')
+		order by to_char(rdate, 'MM')) b where a.mon = b.dd(+) order by mon
+	</select>
+	
+	<select id="rentTodayCount" resultType="int">
+		select count(*) from rent where to_char(sysdate,'YYYYMMDD') = to_char(bstart,'YYYYMMDD')
+	</select>
+	
+	<select id="rentChartSearch" resultType="co.jasmin.prj.rent.service.RentVO">
+      select b.bclass, nvl(r.cnt, 0) cnt
+      from (select r.bclass, count(1) cnt from rentchart r where to_char(r.bstart, 'yyyy') = #{year} group by r.bclass) r, bclasstb b
+      where r.bclass(+) = b.bclass order by bclass
+   </select>
+</mapper>

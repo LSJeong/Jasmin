@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.admin.qnareply.service.QnaReplyMapper">
+
+   <select id="qnareplySelectList" resultType="co.jasmin.prj.admin.qnareply.service.QnaReplyVO">
+      SELECT * FROM QNAREPLY
+         ORDER BY NO DESC
+   </select>
+
+   <select id="qnareplySelect" resultType="co.jasmin.prj.admin.qnareply.service.QnaReplyVO">
+      SELECT * FROM QNAREPLY WHERE no = #{no}
+   </select>
+
+   <insert id="qnareplyInsert" parameterType="co.jasmin.prj.admin.qnareply.service.QnaReplyVO">
+   <selectKey keyProperty="replyno" resultType="int" order="BEFORE">
+      SELECT NVL(MAX(REPLYNO),0)+1 FROM QNAREPLY
+   </selectKey>
+      INSERT INTO QNAREPLY (replyno, no, content, id)
+      VALUES(#{replyno}, #{no},#{content}, #{id})
+   </insert>
+
+   <update id="qnareplyUpdate" parameterType="co.jasmin.prj.admin.qnareply.service.QnaReplyVO">
+      UPDATE QNAREPLY
+      SET title = #{title}, content = #{content}
+      WHERE REPLYNO = #{replyno}
+   </update>
+
+   <delete id="qnareplyDelete" parameterType="co.jasmin.prj.admin.qnareply.service.QnaReplyVO">
+      DELETE FROM QNAREPLY WHERE no = #{no}
+   </delete>
+
+</mapper>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jasmin.prj.qna.service.QnaMapper">
+
+   <select id="qnaSelectList" resultType="co.jasmin.prj.qna.service.QnaVO">
+      SELECT * FROM QNA
+      ORDER BY NO DESC
+   </select>
+   
+   <select id="qnaSelect" resultType="co.jasmin.prj.qna.service.QnaVO">
+      SELECT * FROM QNA WHERE NO = #{no}
+   </select>
+
+   <insert id="qnaInsert" parameterType="co.jasmin.prj.qna.service.QnaVO">
+   <selectKey keyProperty="no" resultType="int" order="BEFORE">
+      SELECT NVL(MAX(NO),0)+1 FROM QNA      
+   </selectKey>
+      INSERT INTO QNA (no, title, content, id)
+      VALUES(#{no},#{title},#{content},#{id})
+   </insert>
+
+   <update id="qnaUpdate" parameterType="co.jasmin.prj.qna.service.QnaVO">
+      UPDATE QNA
+      SET title = #{title}, content = #{content}
+      WHERE no = #{no}
+   </update>
+   
+   <delete id="qnaDelete" parameterType="co.jasmin.prj.qna.service.QnaVO">
+      DELETE FROM QNA WHERE NO = #{no}
+   </delete>
+	
+	<select id="qnaTodayCount" resultType="int">
+		SELECT COUNT(*) FROM QNA
+	</select>
+
+</mapper>
+   
